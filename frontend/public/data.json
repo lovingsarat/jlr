@@ -1,0 +1,1774 @@
+{
+  "exportedAt": "2026-07-17T08:39:43.458307Z",
+  "totalFeedbackCount": 53,
+  "sentimentPercentages": {
+    "Positive": 77.36,
+    "Neutral": 20.75,
+    "Negative": 1.89
+  },
+  "platformCounts": {
+    "Reddit": 10,
+    "Trustpilot": 2,
+    "YouTube": 2,
+    "AutoExpress": 5,
+    "Twitter": 34
+  },
+  "cityCounts": {
+    "Defender": 10,
+    "Range Rover": 15,
+    "Jaguar": 8,
+    "Discovery": 12,
+    "General": 7,
+    "N/A": 1
+  },
+  "brandCounts": {
+    "jlr": 53
+  },
+  "analytics": {
+    "trendingTerms": [
+      {
+        "term": "http",
+        "count": 51,
+        "positive": 39,
+        "neutral": 12,
+        "negative": 0
+      },
+      {
+        "term": "dynamic",
+        "count": 12,
+        "positive": 10,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "premium",
+        "count": 9,
+        "positive": 7,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "sport",
+        "count": 9,
+        "positive": 8,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "thi",
+        "count": 9,
+        "positive": 7,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "explore",
+        "count": 9,
+        "positive": 9,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "info",
+        "count": 8,
+        "positive": 6,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "luxury",
+        "count": 8,
+        "positive": 8,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "pace",
+        "count": 8,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "term": "leather",
+        "count": 8,
+        "positive": 7,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "suspension",
+        "count": 7,
+        "positive": 6,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "road",
+        "count": 7,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "out",
+        "count": 7,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "replie",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "landroverdiscovery",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      }
+    ],
+    "keyIssues": [
+      {
+        "theme": "Charging Infrastructure",
+        "count": 7,
+        "example": "I-PACE owner for 2 years here. Driving dynamics are sporty and throttle response is sharp, but the 11kW AC charging limit is frustrating compared to newer EVs. JLR needs to upgrade"
+      },
+      {
+        "theme": "After-Sales Service",
+        "count": 7,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
+      },
+      {
+        "theme": "Comfort",
+        "count": 5,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Build Quality",
+        "count": 2,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Battery & Range",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Infotainment",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Ride & Handling",
+        "count": 2,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
+      },
+      {
+        "theme": "Warranty",
+        "count": 1,
+        "example": "Stunning #Nissan Navara 2.3 Tekna Auto in Bronze with Black Leather.\n\nThis double cab pickup comes fully loaded with Sat Nav, 360 Camera, heated seats, and more!\n\nFull service hist"
+      }
+    ],
+    "topPraises": [
+      {
+        "theme": "EV Experience",
+        "count": 16,
+        "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
+      },
+      {
+        "theme": "Design & Styling",
+        "count": 16,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Comfort & Luxury",
+        "count": 13,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
+        "theme": "Off-road Capability",
+        "count": 9,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
+        "theme": "Interior Quality",
+        "count": 9,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Practicality",
+        "count": 7,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Performance",
+        "count": 6,
+        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+      },
+      {
+        "theme": "Value for Money",
+        "count": 1,
+        "example": "Tested the Defender 110 V8 on mud trails. The wade sensing and air suspension adjusting height automatically is amazing. Absolutely worth the premium price tag if you do real off-r"
+      }
+    ],
+    "topEvents": [
+      {
+        "event": "Discovery",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Defender 110",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "I-PACE",
+        "count": 3,
+        "positive": 0,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "event": "F-PACE",
+        "count": 3,
+        "positive": 3,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Range Rover Sport",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Discovery Sport",
+        "count": 2,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Evoque",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Range Rover Velar",
+        "count": 2,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      }
+    ],
+    "topAuthors": [
+      {
+        "author": "@LandRoverUK",
+        "count": 20
+      },
+      {
+        "author": "@LandRover",
+        "count": 8
+      },
+      {
+        "author": "@RangeRover",
+        "count": 6
+      },
+      {
+        "author": "AutoExpress Expert",
+        "count": 5
+      },
+      {
+        "author": "Verified Customer",
+        "count": 2
+      },
+      {
+        "author": "YT Review Viewer",
+        "count": 2
+      },
+      {
+        "author": "u/MuddyGearbox",
+        "count": 1
+      },
+      {
+        "author": "u/Overland_OCTA",
+        "count": 1
+      }
+    ],
+    "sentimentByDate": {
+      "2026-07-17": {
+        "Positive": 7,
+        "Neutral": 3,
+        "Negative": 0
+      },
+      "2026-07-16": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 1
+      },
+      "2025-08-29": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-28": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-15": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-06": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-07-23": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-07-10": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-29": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-20": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-15": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-13": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-04-10": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-03-27": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      }
+    },
+    "citySentiment": {
+      "Defender": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0,
+        "total": 10
+      },
+      "Range Rover": {
+        "Positive": 13,
+        "Neutral": 2,
+        "Negative": 0,
+        "total": 15
+      },
+      "Jaguar": {
+        "Positive": 5,
+        "Neutral": 2,
+        "Negative": 1,
+        "total": 8
+      },
+      "Discovery": {
+        "Positive": 11,
+        "Neutral": 1,
+        "Negative": 0,
+        "total": 12
+      },
+      "General": {
+        "Positive": 2,
+        "Neutral": 5,
+        "Negative": 0,
+        "total": 7
+      },
+      "N/A": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0,
+        "total": 1
+      }
+    },
+    "topNegativePosts": [
+      {
+        "id": "youtube_8213073322683859505",
+        "author": "YT Review Viewer",
+        "event": "I-PACE",
+        "city": "Jaguar",
+        "text": "The Jaguar I-PACE styling is gorgeous, but the 11kW AC slow charging limit is a dealbreaker when audi e-tron does 22kW. JLR must upgrade the onboard charger.",
+        "date": "2026-07-16"
+      }
+    ],
+    "topPositivePosts": [
+      {
+        "id": "twitter_1851730799240097801",
+        "author": "@LandRoverUK",
+        "event": "Evoque",
+        "city": "Range Rover",
+        "text": "✨ Explore luxury and adventure with this Range Rover Evoque HSE Dynamic in stunning Silicon Silver!\n\nFull service history, panoramic roof, and premium features like sat nav, rear camera, and leather seats—ready for new journeys.\n\nFind out more - http",
+        "date": "2024-10-30"
+      },
+      {
+        "id": "reddit_fb_5200112994101073413",
+        "author": "u/MuddyGearbox",
+        "event": "Defender 110",
+        "city": "Defender",
+        "text": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the depth info perfectly. Build quality feels absolutely bulletproof, though t",
+        "date": "2026-07-17"
+      },
+      {
+        "id": "twitter_1847326275192381587",
+        "author": "@LandRoverUK",
+        "event": "Defender 110",
+        "city": "Defender",
+        "text": "Defender 110 X Dynamic HSE in stunning Silicon Silver Premium Metallic is here, loaded with luxury features like air suspension, a Meridian sound system, and 3D surround cameras.\n\nContact us for details 01539 441888 or Explore online - https://t.co/U",
+        "date": "2024-10-18"
+      },
+      {
+        "id": "twitter_1947967428215910743",
+        "author": "@RangeRover",
+        "event": "Range Rover Sport",
+        "city": "Range Rover",
+        "text": "SV Bespoke, an exclusive customisation service, meets Range Rover Sport.\n\nWith Bespoke Indigo Gloss and Champagne Gold Satin, this is Nocturne – the first Range Rover Sport made by SV Bespoke.\n​\n#RangeRover #RangeRoverSport\n\n——  \n\nRefer to the commen",
+        "date": "2025-07-23"
+      },
+      {
+        "id": "twitter_1860043071590924639",
+        "author": "@LandRoverUK",
+        "event": "Discovery Sport",
+        "city": "Discovery",
+        "text": "Discovery Sport 2.0 D200 MHEV R-Dynamic HSE in stunning Eiger Grey Metallic paired with Ebony Windsor leather.\n\nDesigned for those who demand style and substance, this car is equipped with premium upgrades and cutting-edge tech.\n\nExplore online - htt",
+        "date": "2024-11-22"
+      }
+    ],
+    "executiveSummary": "Across 53 JLR (Jaguar Land Rover) reviews, sentiment is 77% positive, 21% neutral, and 2% negative. Key concerns: Charging Infrastructure, After-Sales Service, Comfort. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Discovery, Defender 110, I-PACE."
+  },
+  "jlrAnalytics": {
+    "trendingTerms": [
+      {
+        "term": "http",
+        "count": 51,
+        "positive": 39,
+        "neutral": 12,
+        "negative": 0
+      },
+      {
+        "term": "dynamic",
+        "count": 12,
+        "positive": 10,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "premium",
+        "count": 9,
+        "positive": 7,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "sport",
+        "count": 9,
+        "positive": 8,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "thi",
+        "count": 9,
+        "positive": 7,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "explore",
+        "count": 9,
+        "positive": 9,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "info",
+        "count": 8,
+        "positive": 6,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "luxury",
+        "count": 8,
+        "positive": 8,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "pace",
+        "count": 8,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "term": "leather",
+        "count": 8,
+        "positive": 7,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "suspension",
+        "count": 7,
+        "positive": 6,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "road",
+        "count": 7,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "out",
+        "count": 7,
+        "positive": 5,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "term": "replie",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "landroverdiscovery",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      }
+    ],
+    "keyIssues": [
+      {
+        "theme": "Charging Infrastructure",
+        "count": 7,
+        "example": "I-PACE owner for 2 years here. Driving dynamics are sporty and throttle response is sharp, but the 11kW AC charging limit is frustrating compared to newer EVs. JLR needs to upgrade"
+      },
+      {
+        "theme": "After-Sales Service",
+        "count": 7,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
+      },
+      {
+        "theme": "Comfort",
+        "count": 5,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Build Quality",
+        "count": 2,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Battery & Range",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Infotainment",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Ride & Handling",
+        "count": 2,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
+      },
+      {
+        "theme": "Warranty",
+        "count": 1,
+        "example": "Stunning #Nissan Navara 2.3 Tekna Auto in Bronze with Black Leather.\n\nThis double cab pickup comes fully loaded with Sat Nav, 360 Camera, heated seats, and more!\n\nFull service hist"
+      }
+    ],
+    "topPraises": [
+      {
+        "theme": "EV Experience",
+        "count": 16,
+        "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
+      },
+      {
+        "theme": "Design & Styling",
+        "count": 16,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Comfort & Luxury",
+        "count": 13,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
+        "theme": "Off-road Capability",
+        "count": 9,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
+        "theme": "Interior Quality",
+        "count": 9,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Practicality",
+        "count": 7,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Performance",
+        "count": 6,
+        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+      },
+      {
+        "theme": "Value for Money",
+        "count": 1,
+        "example": "Tested the Defender 110 V8 on mud trails. The wade sensing and air suspension adjusting height automatically is amazing. Absolutely worth the premium price tag if you do real off-r"
+      }
+    ],
+    "topEvents": [
+      {
+        "event": "Discovery",
+        "count": 7,
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Defender 110",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "I-PACE",
+        "count": 3,
+        "positive": 0,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "event": "F-PACE",
+        "count": 3,
+        "positive": 3,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Range Rover Sport",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Discovery Sport",
+        "count": 2,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Evoque",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Range Rover Velar",
+        "count": 2,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      }
+    ],
+    "topAuthors": [
+      {
+        "author": "@LandRoverUK",
+        "count": 20
+      },
+      {
+        "author": "@LandRover",
+        "count": 8
+      },
+      {
+        "author": "@RangeRover",
+        "count": 6
+      },
+      {
+        "author": "AutoExpress Expert",
+        "count": 5
+      },
+      {
+        "author": "Verified Customer",
+        "count": 2
+      },
+      {
+        "author": "YT Review Viewer",
+        "count": 2
+      },
+      {
+        "author": "u/MuddyGearbox",
+        "count": 1
+      },
+      {
+        "author": "u/Overland_OCTA",
+        "count": 1
+      }
+    ],
+    "sentimentByDate": {
+      "2026-07-17": {
+        "Positive": 7,
+        "Neutral": 3,
+        "Negative": 0
+      },
+      "2026-07-16": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 1
+      },
+      "2025-08-29": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-28": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-15": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-08-06": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-07-23": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-07-10": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-29": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-20": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-15": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-05-13": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-04-10": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "2025-03-27": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      }
+    },
+    "citySentiment": {
+      "Defender": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0,
+        "total": 10
+      },
+      "Range Rover": {
+        "Positive": 13,
+        "Neutral": 2,
+        "Negative": 0,
+        "total": 15
+      },
+      "Jaguar": {
+        "Positive": 5,
+        "Neutral": 2,
+        "Negative": 1,
+        "total": 8
+      },
+      "Discovery": {
+        "Positive": 11,
+        "Neutral": 1,
+        "Negative": 0,
+        "total": 12
+      },
+      "General": {
+        "Positive": 2,
+        "Neutral": 5,
+        "Negative": 0,
+        "total": 7
+      },
+      "N/A": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0,
+        "total": 1
+      }
+    },
+    "topNegativePosts": [
+      {
+        "id": "youtube_8213073322683859505",
+        "author": "YT Review Viewer",
+        "event": "I-PACE",
+        "city": "Jaguar",
+        "text": "The Jaguar I-PACE styling is gorgeous, but the 11kW AC slow charging limit is a dealbreaker when audi e-tron does 22kW. JLR must upgrade the onboard charger.",
+        "date": "2026-07-16"
+      }
+    ],
+    "topPositivePosts": [
+      {
+        "id": "twitter_1851730799240097801",
+        "author": "@LandRoverUK",
+        "event": "Evoque",
+        "city": "Range Rover",
+        "text": "✨ Explore luxury and adventure with this Range Rover Evoque HSE Dynamic in stunning Silicon Silver!\n\nFull service history, panoramic roof, and premium features like sat nav, rear camera, and leather seats—ready for new journeys.\n\nFind out more - http",
+        "date": "2024-10-30"
+      },
+      {
+        "id": "reddit_fb_5200112994101073413",
+        "author": "u/MuddyGearbox",
+        "event": "Defender 110",
+        "city": "Defender",
+        "text": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the depth info perfectly. Build quality feels absolutely bulletproof, though t",
+        "date": "2026-07-17"
+      },
+      {
+        "id": "twitter_1847326275192381587",
+        "author": "@LandRoverUK",
+        "event": "Defender 110",
+        "city": "Defender",
+        "text": "Defender 110 X Dynamic HSE in stunning Silicon Silver Premium Metallic is here, loaded with luxury features like air suspension, a Meridian sound system, and 3D surround cameras.\n\nContact us for details 01539 441888 or Explore online - https://t.co/U",
+        "date": "2024-10-18"
+      },
+      {
+        "id": "twitter_1947967428215910743",
+        "author": "@RangeRover",
+        "event": "Range Rover Sport",
+        "city": "Range Rover",
+        "text": "SV Bespoke, an exclusive customisation service, meets Range Rover Sport.\n\nWith Bespoke Indigo Gloss and Champagne Gold Satin, this is Nocturne – the first Range Rover Sport made by SV Bespoke.\n​\n#RangeRover #RangeRoverSport\n\n——  \n\nRefer to the commen",
+        "date": "2025-07-23"
+      },
+      {
+        "id": "twitter_1860043071590924639",
+        "author": "@LandRoverUK",
+        "event": "Discovery Sport",
+        "city": "Discovery",
+        "text": "Discovery Sport 2.0 D200 MHEV R-Dynamic HSE in stunning Eiger Grey Metallic paired with Ebony Windsor leather.\n\nDesigned for those who demand style and substance, this car is equipped with premium upgrades and cutting-edge tech.\n\nExplore online - htt",
+        "date": "2024-11-22"
+      }
+    ],
+    "executiveSummary": "Across 53 JLR (Jaguar Land Rover) reviews, sentiment is 77% positive, 21% neutral, and 2% negative. Key concerns: Charging Infrastructure, After-Sales Service, Comfort. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Discovery, Defender 110, I-PACE."
+  },
+  "tataAnalytics": null,
+  "items": [
+    {
+      "id": "reddit_fb_5200112994101073413",
+      "platform": "Reddit",
+      "author": "u/MuddyGearbox",
+      "date": "2026-07-17",
+      "event": "Defender 110",
+      "text": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the depth info perfectly. Build quality feels absolutely bulletproof, though the premium pricing of custom accessory packs hurts.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "r/landrover",
+      "priority_score": 1,
+      "category_tag": "Off-road",
+      "action_insight": "Maintain the high standard of off-road sensor reliability while reviewing the pricing strategy for custom accessory packs to improve customer value perception.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_7981117765886422810",
+      "platform": "Reddit",
+      "author": "u/Overland_OCTA",
+      "date": "2026-07-17",
+      "event": "Defender OCTA",
+      "text": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. True luxury off-road capability. Main complaint: options list is too expensive.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "r/Defender",
+      "priority_score": 2,
+      "category_tag": "Pricing",
+      "action_insight": "Review the pricing structure of optional features to ensure they align with customer value expectations for high-end models.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_8030707917066233740",
+      "platform": "Reddit",
+      "author": "u/LuxuryCruiser",
+      "date": "2026-07-17",
+      "event": "Range Rover Sport",
+      "text": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where they froze during a long trip. Still, comfort is unmatched.",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": "r/RangeRover",
+      "priority_score": 3,
+      "category_tag": "Infotainment",
+      "action_insight": "Investigate and patch software stability issues affecting rear infotainment screens to prevent freezing during extended use.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_4341005465235665330",
+      "platform": "Reddit",
+      "author": "u/ElectricCat",
+      "date": "2026-07-17",
+      "event": "I-PACE",
+      "text": "I-PACE owner for 2 years here. Driving dynamics are sporty and throttle response is sharp, but the 11kW AC charging limit is frustrating compared to newer EVs. JLR needs to upgrade their on-board chargers for faster overnight charging.",
+      "sentiment": "Neutral",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "r/jaguar",
+      "priority_score": 3,
+      "category_tag": "EV Range",
+      "action_insight": "Upgrade the on-board charger capacity in future EV iterations to support faster AC charging speeds.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_5422774163299425557",
+      "platform": "Reddit",
+      "author": "u/DiscoFamily",
+      "date": "2026-07-17",
+      "event": "Discovery Sport",
+      "text": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petrol engine is quite bad.",
+      "sentiment": "Neutral",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": "r/landrover",
+      "priority_score": 2,
+      "category_tag": "Comfort",
+      "action_insight": "Improve the fuel efficiency of the petrol engine to address customer concerns regarding high consumption.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_2866209814378209989",
+      "platform": "Reddit",
+      "author": "u/VelarDesign",
+      "date": "2026-07-17",
+      "event": "Velar",
+      "text": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is premium, but cargo space could be better.",
+      "sentiment": "Neutral",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": "r/RangeRover",
+      "priority_score": 2,
+      "category_tag": "Infotainment",
+      "action_insight": "Improve Pivi Pro cold-start responsiveness and consider anti-fingerprint coatings for the dual touchscreen interface.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_7256839012675244549",
+      "platform": "Reddit",
+      "author": "u/D130_Overland",
+      "date": "2026-07-17",
+      "event": "Defender 130",
+      "text": "Defender 130 is the ultimate family overland rig. Having 8 seats with decent cargo space behind the third row is a game changer. The D300 mild-hybrid diesel engine has excellent torque. Wish they offered a PHEV version in the 130 body style.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "r/Defender",
+      "priority_score": 1,
+      "category_tag": "Performance",
+      "action_insight": "Evaluate the feasibility of introducing a PHEV powertrain option for the Defender 130 to meet customer demand for electrified long-range utility.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_2713699226187357492",
+      "platform": "Reddit",
+      "author": "u/EvoqueUrban",
+      "date": "2026-07-17",
+      "event": "Evoque",
+      "text": "Range Rover Evoque handles tight city streets beautifully. The design is a head-turner. Only issue is rear visibility is quite limited due to the sloping roofline, though the ClearSight digital rearview mirror helps.",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": "r/landrover",
+      "priority_score": 2,
+      "category_tag": "Design",
+      "action_insight": "Continue promoting the ClearSight digital rearview mirror as a key solution to mitigate visibility challenges caused by the Evoque's sloping roofline design.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_3643471916009817847",
+      "platform": "Reddit",
+      "author": "u/FpaceSport",
+      "date": "2026-07-17",
+      "event": "F-PACE SVR",
+      "text": "Jaguar F-PACE SVR has the most glorious V8 supercharged exhaust note. Suspension is firm but handles like a sports sedan. Rear legroom is okay, but infotainment menus take a bit of getting used to.",
+      "sentiment": "Positive",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "r/jaguar",
+      "priority_score": 2,
+      "category_tag": "Performance",
+      "action_insight": "Simplify the infotainment menu structure to improve user accessibility and reduce the learning curve for new owners.",
+      "brand": "jlr"
+    },
+    {
+      "id": "reddit_fb_3931126939420281600",
+      "platform": "Reddit",
+      "author": "u/EpaceDaily",
+      "date": "2026-07-17",
+      "event": "E-PACE",
+      "text": "Jaguar E-PACE is a fun compact crossover. Cabin feels driver-focused. The build quality has been decent, but there is some road noise at highway speeds.",
+      "sentiment": "Positive",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "r/jaguar",
+      "priority_score": 2,
+      "category_tag": "Build Quality",
+      "action_insight": "Improve cabin sound insulation to reduce road noise at highway speeds for a more premium driving experience.",
+      "brand": "jlr"
+    },
+    {
+      "id": "trustpilot_fb_6945652474432160744",
+      "platform": "Trustpilot",
+      "author": "Verified Customer",
+      "date": "2026-07-16",
+      "event": "Range Rover Velar",
+      "text": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perfectly now but JLR needs to fix their parts supply logistics.",
+      "sentiment": "Neutral",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": "https://www.trustpilot.com/review/www.jaguar.co.uk",
+      "priority_score": 4,
+      "category_tag": "After-Sales",
+      "action_insight": "Improve parts supply chain logistics to reduce wait times for critical component replacements.",
+      "brand": "jlr"
+    },
+    {
+      "id": "trustpilot_fb_5803719374579553936",
+      "platform": "Trustpilot",
+      "author": "Verified Customer",
+      "date": "2026-07-16",
+      "event": "Defender 90",
+      "text": "Absolutely love my new Defender 90. It's the most capable offroad SUV I have owned. The luxury cabin finishes and Pivi Pro screen are flawless. Only complaint is the premium pricing on options list.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "https://www.trustpilot.com/review/www.jaguar.co.uk",
+      "priority_score": 4,
+      "category_tag": "General",
+      "action_insight": "Review customer feedback regarding the high cost of optional features to evaluate if bundling or pricing adjustments could improve value perception.",
+      "brand": "jlr"
+    },
+    {
+      "id": "youtube_3825830347160043886",
+      "platform": "YouTube",
+      "author": "YT Review Viewer",
+      "date": "2026-07-16",
+      "event": "Defender 110",
+      "text": "Tested the Defender 110 V8 on mud trails. The wade sensing and air suspension adjusting height automatically is amazing. Absolutely worth the premium price tag if you do real off-roading.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "https://www.youtube.com/watch?v=DefenderReview",
+      "priority_score": 5,
+      "category_tag": "Off-road",
+      "action_insight": "Highlight the effectiveness of wade sensing and adaptive air suspension in marketing materials to justify the premium positioning for off-road enthusiasts.",
+      "brand": "jlr"
+    },
+    {
+      "id": "youtube_8213073322683859505",
+      "platform": "YouTube",
+      "author": "YT Review Viewer",
+      "date": "2026-07-16",
+      "event": "I-PACE",
+      "text": "The Jaguar I-PACE styling is gorgeous, but the 11kW AC slow charging limit is a dealbreaker when audi e-tron does 22kW. JLR must upgrade the onboard charger.",
+      "sentiment": "Negative",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "https://www.youtube.com/watch?v=DefenderReview",
+      "priority_score": 5,
+      "category_tag": "EV Range",
+      "action_insight": "Upgrade the onboard AC charger to at least 22kW to remain competitive with rivals like the Audi e-tron.",
+      "brand": "jlr"
+    },
+    {
+      "id": "autoexpress_fb_5506586750206257524",
+      "platform": "AutoExpress",
+      "author": "AutoExpress Expert",
+      "date": "2026-07-16",
+      "event": "Defender General",
+      "text": "The Land Rover Defender remains the gold standard of off-road utility cars. Excellent road handling manners coupled with unmatched wading and terrain response settings.",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": "https://www.autoexpress.co.uk/land-rover/defender",
+      "priority_score": 5,
+      "category_tag": "Off-road",
+      "action_insight": "Maintain the current engineering focus on terrain response and wading capabilities as they are key drivers of the vehicle's market-leading reputation.",
+      "brand": "jlr"
+    },
+    {
+      "id": "autoexpress_fb_8504999392266256322",
+      "platform": "AutoExpress",
+      "author": "AutoExpress Expert",
+      "date": "2026-07-16",
+      "event": "Range Rover",
+      "text": "The new Range Rover is an absolute masterpiece of luxury and comfort. Acoustic double glazing and floating air suspension create a silent cabin, though the infotainment can occasionally lag.",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": "https://www.autoexpress.co.uk/land-rover/range-rover",
+      "priority_score": 4,
+      "category_tag": "Comfort",
+      "action_insight": "Optimize infotainment software performance to address occasional lag and maintain the premium user experience.",
+      "brand": "jlr"
+    },
+    {
+      "id": "autoexpress_fb_5531683704607207498",
+      "platform": "AutoExpress",
+      "author": "AutoExpress Expert",
+      "date": "2026-07-16",
+      "event": "F-PACE",
+      "text": "The Jaguar F-PACE handles with sports-car agility in a practical midsize SUV package. The V8 supercharged engine is punchy, but infotainment menu layouts feel cluttered.",
+      "sentiment": "Positive",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "https://www.autoexpress.co.uk/jaguar/f-pace",
+      "priority_score": 4,
+      "category_tag": "Performance",
+      "action_insight": "Simplify the infotainment menu structure to improve user experience and reduce interface clutter.",
+      "brand": "jlr"
+    },
+    {
+      "id": "autoexpress_fb_7632509803321840509",
+      "platform": "AutoExpress",
+      "author": "AutoExpress Expert",
+      "date": "2026-07-16",
+      "event": "I-PACE",
+      "text": "The electric Jaguar I-PACE delivers responsive EV power and steering dynamics, but its charging capacity of 11kW AC limits public charging utility compared to audi and porsche.",
+      "sentiment": "Neutral",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": "https://www.autoexpress.co.uk/jaguar/i-pace",
+      "priority_score": 4,
+      "category_tag": "EV Range",
+      "action_insight": "Upgrade the onboard charging capacity to remain competitive with rival EV charging speeds.",
+      "brand": "jlr"
+    },
+    {
+      "id": "autoexpress_fb_4269544685411526630",
+      "platform": "AutoExpress",
+      "author": "AutoExpress Expert",
+      "date": "2026-07-16",
+      "event": "Discovery General",
+      "text": "The Land Rover Discovery offers unmatched family practicality with 7 full-sized adult seats and legendary off-road towing capacity. The ride is comfortable, but fuel economy is poor.",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": "https://www.autoexpress.co.uk/land-rover/discovery",
+      "priority_score": 3,
+      "category_tag": "Comfort",
+      "action_insight": "Improve fuel efficiency to address customer concerns regarding the vehicle's high consumption levels.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1961368230573883501",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-08-29",
+      "event": "Range Rover",
+      "text": "From sketch to sculpture. ​\n​\nThe Range Rover design process begins with the human hand.​\n​\n#RangeRover​ \n\n——  \n\nRefer to the comments for the finer details. https://t.co/QTJa4a1KUS",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging behind-the-scenes design storytelling to reinforce the brand's premium craftsmanship and heritage.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1961051852054630831",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-08-28",
+      "event": "General",
+      "text": "The day is calling. Go answer it.​\n\n#Discovery\n\n——​ ​\n\nSmall print in the replies, just in case https://t.co/YeQvjcpMJV",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage lifestyle-focused imagery to maintain brand aspiration while ensuring clear links to specific model configurators.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1961051141673722161",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-08-28",
+      "event": "General",
+      "text": "Hand-mixed mastery. Signature finishes. Tailored to every curve.​\n​\nBecause colour should feel as refined as form.​\n​\n#RangeRover \n\n——\n\nRefer to the comments for the finer details. https://t.co/VhHEi8Q8eP",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging high-end craftsmanship and bespoke customization narratives to reinforce the brand's luxury positioning.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1956395480738382264",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-08-15",
+      "event": "Range Rover SV",
+      "text": "A tribute to the natural beauty of Asilomar Cove.\n\nRange Rover SV Asilomar Edition debuts at Monterey Car Week - a bespoke duo-tone shade embodying the shifting blue hues of an extraordinary underwater landscape.\n\nSpecially curated by SV Bespoke.\n\n#RangeRover https://t.co/OgOiUvGlfi",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 4,
+      "category_tag": "Design",
+      "action_insight": "Leverage the high engagement of bespoke SV editions by highlighting the customization process in future social content to drive interest in the SV Bespoke program.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1953033332570132594",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-08-06",
+      "event": "Range Rover Sport SV",
+      "text": "Sculpted in Carbon. Shaped by SV. ​ ​ \n\nIntroducing Range Rover Sport SV Carbon, the epitome of ultra-lightweight performance.​ ​ \n\n#RangeRover #RangeRoverSport \n\n——  \n\nRefer to the comments for finer details. https://t.co/dSp4Ebwvy6",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 4,
+      "category_tag": "Performance",
+      "action_insight": "Leverage the high engagement of the SV Carbon launch to highlight technical specifications and weight-saving engineering in follow-up content.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1947967428215910743",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-07-23",
+      "event": "Range Rover Sport",
+      "text": "SV Bespoke, an exclusive customisation service, meets Range Rover Sport.\n\nWith Bespoke Indigo Gloss and Champagne Gold Satin, this is Nocturne – the first Range Rover Sport made by SV Bespoke.\n​\n#RangeRover #RangeRoverSport\n\n——  \n\nRefer to the comments for finer details. https://t.co/oNpUp7MSDI",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Leverage the visual appeal of the Nocturne edition in future marketing campaigns to highlight the exclusivity of the SV Bespoke customization service.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1943248938133250301",
+      "platform": "Twitter",
+      "author": "@RangeRover",
+      "date": "2025-07-10",
+      "event": "Range Rover SV",
+      "text": "Introducing Range Rover SV Black. ​\n​\nFrom the 23-inch alloy wheels in Gloss Black finish to the black ceramic SV roundel, every element refines and defines.​\n​\n#RangeRover \n\n——\n\nRefer to the comments for finer details. https://t.co/ICmjsv84i5",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 4,
+      "category_tag": "Design",
+      "action_insight": "Leverage the visual appeal of the new black aesthetic in high-quality video content to drive engagement among luxury-focused social media audiences.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1928043734979011057",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-05-29",
+      "event": "Discovery",
+      "text": "A windows down policy.​\n\n#LandRoverDiscovery​\n​\n——​\n​\nSmall print in the replies, just in case https://t.co/4pQvv2GRSI",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage the lifestyle-oriented 'windows down' messaging to create more user-generated content campaigns highlighting the Discovery's versatility.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1924838775013966112",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-05-20",
+      "event": "Discovery",
+      "text": "Every dog has its day. Some get the whole weekend.​\n\nProudly joining the pack as the Official Automotive Partner of Goodwoof 2025.​\n\n#LandRoverDiscovery https://t.co/8ObXjUhXEm",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage the partnership with Goodwoof to create lifestyle-focused content highlighting the Discovery's pet-friendly features and cargo versatility.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1922960812240494685",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-05-15",
+      "event": "Discovery",
+      "text": "Introducing Discovery Tempest Edition.​ ​ Inspired by a secret project for the second-generation Discovery in 1998.​ ​   \n\n#LandRoverDiscovery   \n\n——  \n\nExplore the replies for further info. https://t.co/KH1VxPYK0s",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Leverage the heritage-inspired narrative of the Tempest Edition to drive engagement among brand enthusiasts and collectors.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1922957058195763402",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-05-15",
+      "event": "Discovery",
+      "text": "Introducing Discovery Gemini Edition.​ ​ A tribute to the ingenious design of the original 1989 Discovery.​ ​\n  \n#LandRoverDiscovery   \n\n——  \n\nExplore the replies for further info. https://t.co/H89L46vZQQ",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Monitor audience engagement and sentiment regarding the heritage-inspired design elements of the Gemini Edition to gauge interest in future retro-themed special editions.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1922311045621715146",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-05-13",
+      "event": "Discovery",
+      "text": "Room for what matters.\n\n#LandRoverDiscovery\n\n——\nExplore the replies for further info. https://t.co/1awMniZ9O3",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "Comfort",
+      "action_insight": "Monitor customer replies to identify specific lifestyle use-cases that resonate with the Discovery's interior space and versatility.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1910286665806983194",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-04-10",
+      "event": "Discovery",
+      "text": "Don’t forget the marshmallows. \n\n#LandRoverDiscovery\n\n——  \n\nExplore the replies for further info. https://t.co/AdATQUiJof",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage lifestyle-oriented content to highlight the vehicle's versatility and family-friendly utility.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1905273648199442882",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-03-27",
+      "event": "Discovery",
+      "text": "An exploration kind of day.​\n\n#LandRoverDiscovery ​\n\n——​\n​\nExplore the replies for further info. https://t.co/kY8dT0cGFc",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Monitor engagement on the linked thread to identify specific customer questions regarding the Discovery's utility or lifestyle features.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1871870000249643375",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-12-25",
+      "event": "General",
+      "text": "🎄Wishing you a Merry Christmas 🎅\n\nWe extend warm holiday wishes to you and your loved ones.\n\nFor our festive opening hours and other helpful updates, visit: https://t.co/maUMSELnmy\n\nThank you for being part of our journey and for your ongoing support this year. https://t.co/4U7IFvVWp9",
+      "sentiment": "Positive",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Continue maintaining positive brand sentiment through seasonal engagement and clear communication of operational updates.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1867655227769254268",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-12-13",
+      "event": "Discovery Dynamic SE",
+      "text": "Say Hello to this stunning Discovery Dynamic SE - perfect for style, comfort and performance.\n\n🌟 Ready to elevate your festive journeys ?\n\nDiscover more - https://t.co/xYxgOVvESL\n\n#discovery https://t.co/9dvwjwJDvV",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "General",
+      "action_insight": "Leverage the festive season messaging to drive traffic to the product configurator page.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1860043071590924639",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-22",
+      "event": "Discovery Sport",
+      "text": "Discovery Sport 2.0 D200 MHEV R-Dynamic HSE in stunning Eiger Grey Metallic paired with Ebony Windsor leather.\n\nDesigned for those who demand style and substance, this car is equipped with premium upgrades and cutting-edge tech.\n\nExplore online - https://t.co/dBuGOM7jUm https://t.co/d58utWIXXm",
+      "sentiment": "Positive",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging high-quality visual assets of specific trim configurations to drive traffic to the online configurator.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1859318295511302386",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-20",
+      "event": "Range Rover Evoque",
+      "text": "Turn heads with this Range Rover Evoque P300e Dynamic SE, featuring a striking Tribeca Blue finish and luxurious Ebony Leather Interior.\n\nExperience dynamic luxury with cutting-edge tech and sleek design.\n\nFind out more - https://t.co/243cWO0TRU https://t.co/8OAgQhRuC8",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging high-quality visual assets of unique color combinations like Tribeca Blue to drive engagement and traffic to the vehicle configurator.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1858440010048893304",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-18",
+      "event": "General",
+      "text": "❄️ Coniston Old Man with its first dusting of snow this season.\n\nA taste of what’s to come as more snowfall is in the forecast.\n\n🏔️✨ #conistonoldman #cumbria #lakedistrict #adventure https://t.co/wJy9mfQH5x",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage seasonal imagery and adventure-focused content to reinforce the brand's capability and lifestyle positioning.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1857468605707014201",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-15",
+      "event": "General",
+      "text": "Meet our new apprentice, Oliver.\n\nHe’s a big fan of darts, cricket, and has a keen eye for Ferraris. We’re thrilled to have him onboard.\n\nLet’s give Oliver a warm welcome!\n\n#team #newstarter #meettheteam https://t.co/QEsPZW5WsL",
+      "sentiment": "Positive",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Continue leveraging employee spotlight content to humanize the brand and boost employer branding engagement.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1856774033653502008",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-13",
+      "event": "General",
+      "text": "Are you considering selling or part-exchanging your Jaguar or Land Rover?\n\nWe’re currently seeking models up to 7 years old with less than 60,000 miles.\n\nRequest a no-obligation valuation - https://t.co/ndWTn8lUR3 https://t.co/rseGXCaBkG",
+      "sentiment": "Neutral",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "After-Sales",
+      "action_insight": "Monitor the conversion rate of these valuation requests to assess current customer retention and trade-in interest levels.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1854969639752941741",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-08",
+      "event": "Defender 110",
+      "text": "One of our vehicles featured in a recent Lake District photoshoot for Weird Fish.\n\n📸 Credit - Amy Brown @amybrownartist\n\n#lakedistrict #weirdfishclothing #defender110 #coniston #cumbria https://t.co/OqQvGWqq9v",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "Design",
+      "action_insight": "Leverage lifestyle brand collaborations like this to reinforce the Defender's positioning as an adventurous, outdoor-ready vehicle.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1854267513892204793",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-06",
+      "event": "Range Rover Evoque",
+      "text": "Experience sophistication with the Range Rover Evoque PHEV, now in stunning Tribeca Blue paired with sleek Ebony Leather\n\nExplore it today - https://t.co/aU5AspeM97\n\n#evoque https://t.co/ye29MXTygo",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging high-quality visual assets of new colorways to drive traffic to the online configurator.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1853874926379528390",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-05",
+      "event": "F-PACE",
+      "text": "Jaguar F-Pace 2.0 D200 R-Dynamic SE in Santorini Black is ready to turn heads.\nStep inside to pure luxury with perforated leather sport seats, a sliding panoramic sunroof, with Apple CarPlay &amp; Android Auto.\n\nFind out more - https://t.co/kw8UAtussZ\n\n#fpace #jaguar https://t.co/hPnHIRx6YX",
+      "sentiment": "Positive",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "Design",
+      "action_insight": "Continue highlighting premium interior features and connectivity options to maintain the luxury appeal of the F-PACE.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1852440478723063896",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-11-01",
+      "event": "General",
+      "text": "Nissan Navara 2.3 Tekna Double Cab Pickup in Bronze Metallic!\n\nLoaded with high-spec features: Sat Nav, 360° camera, heated seats, tow bar, and more. Perfect for family, work, and play\n\nFind out more - https://t.co/HNnMZIRaWo\n\n#NissanNavara #AdventureReady https://t.co/9PP0zcjd4X",
+      "sentiment": "Neutral",
+      "city": "N/A",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "This post is unrelated to JLR brands and should be ignored as it promotes a competitor vehicle.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1851730799240097801",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-30",
+      "event": "Evoque",
+      "text": "✨ Explore luxury and adventure with this Range Rover Evoque HSE Dynamic in stunning Silicon Silver!\n\nFull service history, panoramic roof, and premium features like sat nav, rear camera, and leather seats—ready for new journeys.\n\nFind out more - https://t.co/sE1EECnyCA\n\n#Evoque https://t.co/bumXpkUEN0",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Continue leveraging high-quality visual assets and detailed feature lists to maintain engagement for pre-owned vehicle listings.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1851353311489732845",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-29",
+      "event": "General",
+      "text": "🔥 Just in! Nearly new 2024 Jeep Compass e-Hybrid Summit in eye-catching Colorado Red. \n\nPacked with premium features and ready for the road with a detachable tow bar.\n\nDiscover more - https://t.co/lZXA1fyayl\n\n#JeepCompass #Hybrid #AdventureReady https://t.co/XLYzsqaqyP",
+      "sentiment": "Neutral",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "This post is related to a competitor brand and does not require action from the JLR social media team.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1849873564675027095",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-25",
+      "event": "General",
+      "text": "Stunning #Nissan Navara 2.3 Tekna Auto in Bronze with Black Leather.\n\nThis double cab pickup comes fully loaded with Sat Nav, 360 Camera, heated seats, and more!\n\nFull service history, 2 owners, and manufacturer’s warranty until April 2026.\n\nMore info  https://t.co/9jxd0k0bhF https://t.co/NGaQ1g1Zeu",
+      "sentiment": "Neutral",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "This post is unrelated to JLR brands and should be ignored as it features a competitor vehicle.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1849045855967363174",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-23",
+      "event": "Range Rover Velar",
+      "text": "Range Rover Velar 2.0 D180 R-Dynamic S in Fuji White with Ebony Leather, only 42k miles!\n\nFeatures include 21\" Gloss Black Alloys, Panoramic Roof, Heated Steering Wheel, and more.\n\nFull service history, last serviced in October.\n\nLearn more  - https://t.co/5UGI5tVm0C https://t.co/IVRN4WXSXU",
+      "sentiment": "Positive",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Monitor engagement on pre-owned inventory listings to identify demand for specific trim configurations like the R-Dynamic S.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1847326275192381587",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-18",
+      "event": "Defender 110",
+      "text": "Defender 110 X Dynamic HSE in stunning Silicon Silver Premium Metallic is here, loaded with luxury features like air suspension, a Meridian sound system, and 3D surround cameras.\n\nContact us for details 01539 441888 or Explore online - https://t.co/UOuA1Cqi77\n\n#defender110 https://t.co/1Fai03c9if",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 3,
+      "category_tag": "General",
+      "action_insight": "Monitor lead conversion rates from the provided phone number and URL to measure the effectiveness of this specific product showcase.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1846642268612317246",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-16",
+      "event": "F-PACE",
+      "text": "Jaguar F-Pace R Dynamic SE finished in Premium Carpathian Metallic with luxurious Ebony leather interior.\n\nThe perfect blend of luxury, performance, and cutting-edge technology!\n\nFind out more - https://t.co/m1ZAuRBRCS\n\n#fpace #jaguar #cumbria https://t.co/GYKy7eD7Aq",
+      "sentiment": "Positive",
+      "city": "Jaguar",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "Design",
+      "action_insight": "Continue leveraging high-quality visual assets of premium color and trim combinations to drive engagement for the F-PACE.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1844800133587988633",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-11",
+      "event": "General",
+      "text": "2023 Ford Transit Custom 320 Trend in sleek Magnetic Grey.\n\nFully serviced and MOT'd until June 2026, it's ready to hit the road! 🌟\n\nDiscover more - https://t.co/73nE6h788k\n\n#FordTransit #vanlife #ford #vansforsale https://t.co/DK6cBysNlt",
+      "sentiment": "Neutral",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "This post is irrelevant to JLR as it promotes a competitor's commercial vehicle; no action required.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1844385397217935369",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-10",
+      "event": "General",
+      "text": "🎉 The Wasdale Head Show &amp; Shepherds Meet is happening Saturday, October 12th! \n\nEnjoy a day of traditional Cumbrian events with fell racing, sheepdog trials, and more.\n\n📅 Date: Sat 12th October\n📍 Location: Wasdale Head\n\nMore info: https://t.co/Hf2lsc6uZ9\n\n#WasdaleHeadShow https://t.co/haOadFVKdp",
+      "sentiment": "Neutral",
+      "city": "General",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "This post is a community event sponsorship or local engagement update and does not require specific product-related follow-up.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1842273229416915148",
+      "platform": "Twitter",
+      "author": "@LandRoverUK",
+      "date": "2024-10-04",
+      "event": "Defender",
+      "text": "Mobile museum is inside a specially commissioned British Red Cross Defender 4x4.\n\nFind out more -  https://t.co/ciuteINfNU https://t.co/2z0PUvszhh",
+      "sentiment": "Positive",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 2,
+      "category_tag": "General",
+      "action_insight": "Leverage the partnership with the British Red Cross to highlight the vehicle's durability and utility in humanitarian efforts.",
+      "brand": "jlr"
+    }
+  ]
+}
