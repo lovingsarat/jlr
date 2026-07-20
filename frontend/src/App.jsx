@@ -577,69 +577,66 @@ User question: ${trimmed}`;
               </div>
             </section>
 
-            {/* Metrics Split */}
-            <div className="dashboard-metrics-split">
-              {/* Donut chart */}
-              <section className="metrics-card chart-card">
-                <h3>
-                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--color-primary)", marginRight: "8px" }}>
-                    <line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" />
+            {/* Sentiment Breakdown - full width row */}
+            <section className="metrics-card chart-card dashboard-full-row">
+              <h3>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--color-primary)", marginRight: "8px" }}>
+                  <line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" />
+                </svg>
+                Sentiment Breakdown
+              </h3>
+              <div className="chart-container">
+                <div className="donut-chart-wrapper">
+                  <svg viewBox="0 0 100 100" className="donut-chart">
+                    <g transform="rotate(-90 50 50)">
+                      {positivePct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#10b981" strokeWidth="10" strokeDasharray={`${posStroke} ${circ}`} strokeDashoffset={-posOffset} strokeLinecap="round" />}
+                      {neutralPct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#f59e0b" strokeWidth="10" strokeDasharray={`${neuStroke} ${circ}`} strokeDashoffset={-neuOffset} strokeLinecap="round" />}
+                      {negativePct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#ef4444" strokeWidth="10" strokeDasharray={`${negStroke} ${circ}`} strokeDashoffset={-negOffset} strokeLinecap="round" />}
+                    </g>
                   </svg>
-                  Sentiment Breakdown
-                </h3>
-                <div className="chart-container">
-                  <div className="donut-chart-wrapper">
-                    <svg viewBox="0 0 100 100" className="donut-chart">
-                      <g transform="rotate(-90 50 50)">
-                        {positivePct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#10b981" strokeWidth="10" strokeDasharray={`${posStroke} ${circ}`} strokeDashoffset={-posOffset} strokeLinecap="round" />}
-                        {neutralPct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#f59e0b" strokeWidth="10" strokeDasharray={`${neuStroke} ${circ}`} strokeDashoffset={-neuOffset} strokeLinecap="round" />}
-                        {negativePct > 0 && <circle cx="50" cy="50" r={radius} fill="transparent" stroke="#ef4444" strokeWidth="10" strokeDasharray={`${negStroke} ${circ}`} strokeDashoffset={-negOffset} strokeLinecap="round" />}
-                      </g>
-                    </svg>
-                    <div className="donut-chart-center">
-                      <span className="donut-pct">{Math.round(positivePct)}%</span>
-                      <span className="donut-lbl">Positive</span>
-                    </div>
+                  <div className="donut-chart-center">
+                    <span className="donut-pct">{Math.round(positivePct)}%</span>
+                    <span className="donut-lbl">Positive</span>
                   </div>
-                  <div className="chart-legend">
-                    <div className="legend-item"><span className="legend-indicator positive" /><span className="legend-name">Positive</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Positive").length} ({Math.round(positivePct)}%)</span></div>
-                    <div className="legend-item"><span className="legend-indicator neutral" /><span className="legend-name">Neutral</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Neutral").length} ({Math.round(neutralPct)}%)</span></div>
-                    <div className="legend-item"><span className="legend-indicator negative" /><span className="legend-name">Negative</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Negative").length} ({Math.round(negativePct)}%)</span></div>
-                  </div>
-                  <p className="sentiment-footnote">
-                    *Sentiment scores reflect genuine customer & expert reviews only.
-                    Official brand posts are shown in the feed (for context) but excluded from this calculation.
-                  </p>
+                </div>
+                <div className="chart-legend">
+                  <div className="legend-item"><span className="legend-indicator positive" /><span className="legend-name">Positive</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Positive").length} ({Math.round(positivePct)}%)</span></div>
+                  <div className="legend-item"><span className="legend-indicator neutral" /><span className="legend-name">Neutral</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Neutral").length} ({Math.round(neutralPct)}%)</span></div>
+                  <div className="legend-item"><span className="legend-indicator negative" /><span className="legend-name">Negative</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Negative").length} ({Math.round(negativePct)}%)</span></div>
+                </div>
+              </div>
+              <p className="sentiment-footnote">
+                *Sentiment scores reflect genuine customer & expert reviews only.
+                Official brand posts are shown in the feed (for context) but excluded from this calculation.
+              </p>
+            </section>
+
+            {/* Brand group + model counts */}
+            <div className="dashboard-metrics-split">
+              <section className="metrics-card platform-card">
+                <h3 className="primary-text">{cfg.groupLabel} Breakdown</h3>
+                <div className="platform-bars-list">
+                  {cfg.groups.map((g, i) => (
+                    <PlatformBar key={g} label={g} count={brandGroupCounts[g] || 0} total={totalBrandItems}
+                      color={isJLR ? ["#4a7c59", "#c9a84c", "#2d6a4f", "#a78b3e"][i] : ["#0061d5", "#e8b84b", "#0047ab", "#c49a0a"][i]} />
+                  ))}
                 </div>
               </section>
 
-              {/* Brand group + model counts */}
-              <div className="counts-cards-subgrid">
-                <section className="metrics-card platform-card">
-                  <h3 className="primary-text">{cfg.groupLabel} Breakdown</h3>
-                  <div className="platform-bars-list">
-                    {cfg.groups.map((g, i) => (
-                      <PlatformBar key={g} label={g} count={brandGroupCounts[g] || 0} total={totalBrandItems}
-                        color={isJLR ? ["#4a7c59", "#c9a84c", "#2d6a4f", "#a78b3e"][i] : ["#0061d5", "#e8b84b", "#0047ab", "#c49a0a"][i]} />
-                    ))}
-                  </div>
-                </section>
-
-                <section className="metrics-card cities-card">
-                  <h3 className="secondary-text">Top Reviewed Models</h3>
-                  <div className="cities-list">
-                    {(() => {
-                      const src = allItems.length ? allItems : STATIC_FEEDBACK_ITEMS;
-                      const brandFiltered = src.filter(i => i.brand === activeBrand);
-                      const modelCounts = {};
-                      brandFiltered.forEach(i => { modelCounts[i.event] = (modelCounts[i.event] || 0) + 1; });
-                      return Object.entries(modelCounts).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([model, count]) => (
-                        <CityItem key={model} label={model} count={count} />
-                      ));
-                    })()}
-                  </div>
-                </section>
-              </div>
+              <section className="metrics-card cities-card">
+                <h3 className="secondary-text">Top Reviewed Models</h3>
+                <div className="cities-list">
+                  {(() => {
+                    const src = allItems.length ? allItems : STATIC_FEEDBACK_ITEMS;
+                    const brandFiltered = src.filter(i => i.brand === activeBrand);
+                    const modelCounts = {};
+                    brandFiltered.forEach(i => { modelCounts[i.event] = (modelCounts[i.event] || 0) + 1; });
+                    return Object.entries(modelCounts).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([model, count]) => (
+                      <CityItem key={model} label={model} count={count} />
+                    ));
+                  })()}
+                </div>
+              </section>
             </div>
 
             {/* Trend Intelligence + Retrospective */}
