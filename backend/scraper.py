@@ -651,7 +651,6 @@ def deduplicate_db():
                 i for i, existing in enumerate(unique)
                 if existing[1].lower() == row[1].lower()
                 and existing[2].lower() == row[2].lower()
-                and existing[3] == row[3]
                 and is_near_dup(existing[5], row[5])
             ),
             -1,

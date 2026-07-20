@@ -213,7 +213,6 @@ def deduplicate(items: list) -> list:
                 i for i, existing in enumerate(unique)
                 if existing["platform"].lower() == item["platform"].lower()
                 and existing["author"].lower() == item["author"].lower()
-                and existing["date"] == item["date"]
                 and has_near_duplicate_text(existing["text"], item["text"])
             ),
             -1,

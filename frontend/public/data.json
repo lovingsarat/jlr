@@ -1,41 +1,62 @@
 {
-  "exportedAt": "2026-07-20T19:39:57.088580Z",
-  "totalFeedbackCount": 49,
+  "exportedAt": "2026-07-20T19:58:08.038170Z",
+  "totalFeedbackCount": 59,
   "sentimentPercentages": {
-    "Positive": 26.53,
-    "Neutral": 71.43,
-    "Negative": 2.04
+    "Positive": 22.03,
+    "Neutral": 76.27,
+    "Negative": 1.69
   },
   "platformCounts": {
     "Reddit": 10,
     "Trustpilot": 2,
     "YouTube": 2,
     "AutoExpress": 5,
-    "Twitter": 30
+    "Twitter": 40
   },
   "cityCounts": {
-    "Defender": 10,
-    "Range Rover": 15,
+    "Defender": 19,
+    "Range Rover": 16,
     "Jaguar": 8,
     "Discovery": 12,
     "General": 4
   },
   "brandCounts": {
-    "jlr": 49
+    "jlr": 59
   },
   "analytics": {
     "trendingTerms": [
       {
         "term": "http",
-        "count": 43,
+        "count": 52,
         "positive": 0,
-        "neutral": 43,
+        "neutral": 52,
+        "negative": 0
+      },
+      {
+        "term": "explore",
+        "count": 16,
+        "positive": 0,
+        "neutral": 16,
         "negative": 0
       },
       {
         "term": "dynamic",
-        "count": 12,
+        "count": 13,
         "positive": 1,
+        "neutral": 12,
+        "negative": 0
+      },
+      {
+        "term": "comment",
+        "count": 11,
+        "positive": 0,
+        "neutral": 11,
+        "negative": 0
+      },
+      {
+        "term": "black",
+        "count": 11,
+        "positive": 0,
         "neutral": 11,
         "negative": 0
       },
@@ -47,10 +68,24 @@
         "negative": 0
       },
       {
-        "term": "explore",
+        "term": "small",
         "count": 9,
         "positive": 0,
         "neutral": 9,
+        "negative": 0
+      },
+      {
+        "term": "print",
+        "count": 9,
+        "positive": 0,
+        "neutral": 9,
+        "negative": 0
+      },
+      {
+        "term": "suspension",
+        "count": 8,
+        "positive": 5,
+        "neutral": 3,
         "negative": 0
       },
       {
@@ -82,13 +117,6 @@
         "negative": 0
       },
       {
-        "term": "suspension",
-        "count": 7,
-        "positive": 5,
-        "neutral": 2,
-        "negative": 0
-      },
-      {
         "term": "info",
         "count": 7,
         "positive": 1,
@@ -96,45 +124,17 @@
         "negative": 0
       },
       {
-        "term": "replie",
+        "term": "rangerover",
         "count": 7,
         "positive": 0,
         "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "landroverdiscovery",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "leather",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "out",
-        "count": 6,
-        "positive": 0,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "term": "evoque",
-        "count": 6,
-        "positive": 1,
-        "neutral": 5,
         "negative": 0
       }
     ],
     "keyIssues": [
       {
         "theme": "Battery & Range",
-        "count": 12,
+        "count": 14,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
       },
       {
@@ -154,12 +154,12 @@
       },
       {
         "theme": "Build Quality",
-        "count": 4,
+        "count": 5,
         "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
         "theme": "Ride & Handling",
-        "count": 4,
+        "count": 5,
         "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       },
       {
@@ -171,7 +171,7 @@
     "topPraises": [
       {
         "theme": "EV Experience",
-        "count": 16,
+        "count": 18,
         "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
       },
       {
@@ -186,12 +186,12 @@
       },
       {
         "theme": "Off-road Capability",
-        "count": 9,
+        "count": 11,
         "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
       },
       {
         "theme": "Interior Quality",
-        "count": 9,
+        "count": 10,
         "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
@@ -212,10 +212,17 @@
     ],
     "topEvents": [
       {
-        "event": "Discovery",
+        "event": "Defender General",
         "count": 7,
-        "positive": 0,
-        "neutral": 7,
+        "positive": 1,
+        "neutral": 6,
+        "negative": 0
+      },
+      {
+        "event": "Discovery General",
+        "count": 7,
+        "positive": 1,
+        "neutral": 6,
         "negative": 0
       },
       {
@@ -223,6 +230,13 @@
         "count": 4,
         "positive": 2,
         "neutral": 2,
+        "negative": 0
+      },
+      {
+        "event": "Defender OCTA",
+        "count": 4,
+        "positive": 1,
+        "neutral": 3,
         "negative": 0
       },
       {
@@ -252,26 +266,16 @@
         "positive": 0,
         "neutral": 2,
         "negative": 0
-      },
-      {
-        "event": "Evoque",
-        "count": 2,
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "event": "Range Rover Velar",
-        "count": 2,
-        "positive": 0,
-        "neutral": 2,
-        "negative": 0
       }
     ],
     "topAuthors": [
       {
         "author": "@LandRoverUK",
         "count": 16
+      },
+      {
+        "author": "@Defender",
+        "count": 9
       },
       {
         "author": "@LandRover",
@@ -296,10 +300,6 @@
       {
         "author": "u/MuddyGearbox",
         "count": 1
-      },
-      {
-        "author": "u/Overland_OCTA",
-        "count": 1
       }
     ],
     "sentimentByDate": {
@@ -323,12 +323,32 @@
         "Neutral": 2,
         "Negative": 0
       },
+      "2025-08-22": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
       "2025-08-15": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
       },
+      "2025-08-14": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "2025-08-08": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
       "2025-08-06": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "2025-07-25": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
@@ -343,32 +363,12 @@
         "Neutral": 1,
         "Negative": 0
       },
-      "2025-05-29": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-05-20": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-05-15": {
+      "2025-07-04": {
         "Positive": 0,
         "Neutral": 2,
         "Negative": 0
       },
-      "2025-05-13": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-04-10": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-03-27": {
+      "2025-07-02": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
@@ -377,15 +377,15 @@
     "citySentiment": {
       "Defender": {
         "Positive": 6,
-        "Neutral": 4,
+        "Neutral": 13,
         "Negative": 0,
-        "total": 10
+        "total": 19
       },
       "Range Rover": {
         "Positive": 3,
-        "Neutral": 12,
+        "Neutral": 13,
         "Negative": 0,
-        "total": 15
+        "total": 16
       },
       "Jaguar": {
         "Positive": 3,
@@ -458,21 +458,42 @@
         "date": "2026-07-17"
       }
     ],
-    "executiveSummary": "Across 49 JLR (Jaguar Land Rover) reviews, sentiment is 27% positive, 71% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Discovery, Defender 110, I-PACE."
+    "executiveSummary": "Across 59 JLR (Jaguar Land Rover) reviews, sentiment is 22% positive, 76% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Defender General, Discovery General, Defender 110."
   },
   "jlrAnalytics": {
     "trendingTerms": [
       {
         "term": "http",
-        "count": 43,
+        "count": 52,
         "positive": 0,
-        "neutral": 43,
+        "neutral": 52,
+        "negative": 0
+      },
+      {
+        "term": "explore",
+        "count": 16,
+        "positive": 0,
+        "neutral": 16,
         "negative": 0
       },
       {
         "term": "dynamic",
-        "count": 12,
+        "count": 13,
         "positive": 1,
+        "neutral": 12,
+        "negative": 0
+      },
+      {
+        "term": "comment",
+        "count": 11,
+        "positive": 0,
+        "neutral": 11,
+        "negative": 0
+      },
+      {
+        "term": "black",
+        "count": 11,
+        "positive": 0,
         "neutral": 11,
         "negative": 0
       },
@@ -484,10 +505,24 @@
         "negative": 0
       },
       {
-        "term": "explore",
+        "term": "small",
         "count": 9,
         "positive": 0,
         "neutral": 9,
+        "negative": 0
+      },
+      {
+        "term": "print",
+        "count": 9,
+        "positive": 0,
+        "neutral": 9,
+        "negative": 0
+      },
+      {
+        "term": "suspension",
+        "count": 8,
+        "positive": 5,
+        "neutral": 3,
         "negative": 0
       },
       {
@@ -519,13 +554,6 @@
         "negative": 0
       },
       {
-        "term": "suspension",
-        "count": 7,
-        "positive": 5,
-        "neutral": 2,
-        "negative": 0
-      },
-      {
         "term": "info",
         "count": 7,
         "positive": 1,
@@ -533,45 +561,17 @@
         "negative": 0
       },
       {
-        "term": "replie",
+        "term": "rangerover",
         "count": 7,
         "positive": 0,
         "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "landroverdiscovery",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "leather",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
-        "negative": 0
-      },
-      {
-        "term": "out",
-        "count": 6,
-        "positive": 0,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "term": "evoque",
-        "count": 6,
-        "positive": 1,
-        "neutral": 5,
         "negative": 0
       }
     ],
     "keyIssues": [
       {
         "theme": "Battery & Range",
-        "count": 12,
+        "count": 14,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
       },
       {
@@ -591,12 +591,12 @@
       },
       {
         "theme": "Build Quality",
-        "count": 4,
+        "count": 5,
         "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
         "theme": "Ride & Handling",
-        "count": 4,
+        "count": 5,
         "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       },
       {
@@ -608,7 +608,7 @@
     "topPraises": [
       {
         "theme": "EV Experience",
-        "count": 16,
+        "count": 18,
         "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
       },
       {
@@ -623,12 +623,12 @@
       },
       {
         "theme": "Off-road Capability",
-        "count": 9,
+        "count": 11,
         "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
       },
       {
         "theme": "Interior Quality",
-        "count": 9,
+        "count": 10,
         "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
@@ -649,10 +649,17 @@
     ],
     "topEvents": [
       {
-        "event": "Discovery",
+        "event": "Defender General",
         "count": 7,
-        "positive": 0,
-        "neutral": 7,
+        "positive": 1,
+        "neutral": 6,
+        "negative": 0
+      },
+      {
+        "event": "Discovery General",
+        "count": 7,
+        "positive": 1,
+        "neutral": 6,
         "negative": 0
       },
       {
@@ -660,6 +667,13 @@
         "count": 4,
         "positive": 2,
         "neutral": 2,
+        "negative": 0
+      },
+      {
+        "event": "Defender OCTA",
+        "count": 4,
+        "positive": 1,
+        "neutral": 3,
         "negative": 0
       },
       {
@@ -689,26 +703,16 @@
         "positive": 0,
         "neutral": 2,
         "negative": 0
-      },
-      {
-        "event": "Evoque",
-        "count": 2,
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "event": "Range Rover Velar",
-        "count": 2,
-        "positive": 0,
-        "neutral": 2,
-        "negative": 0
       }
     ],
     "topAuthors": [
       {
         "author": "@LandRoverUK",
         "count": 16
+      },
+      {
+        "author": "@Defender",
+        "count": 9
       },
       {
         "author": "@LandRover",
@@ -733,10 +737,6 @@
       {
         "author": "u/MuddyGearbox",
         "count": 1
-      },
-      {
-        "author": "u/Overland_OCTA",
-        "count": 1
       }
     ],
     "sentimentByDate": {
@@ -760,12 +760,32 @@
         "Neutral": 2,
         "Negative": 0
       },
+      "2025-08-22": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
       "2025-08-15": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
       },
+      "2025-08-14": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "2025-08-08": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
       "2025-08-06": {
+        "Positive": 0,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "2025-07-25": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
@@ -780,32 +800,12 @@
         "Neutral": 1,
         "Negative": 0
       },
-      "2025-05-29": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-05-20": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-05-15": {
+      "2025-07-04": {
         "Positive": 0,
         "Neutral": 2,
         "Negative": 0
       },
-      "2025-05-13": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-04-10": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-03-27": {
+      "2025-07-02": {
         "Positive": 0,
         "Neutral": 1,
         "Negative": 0
@@ -814,15 +814,15 @@
     "citySentiment": {
       "Defender": {
         "Positive": 6,
-        "Neutral": 4,
+        "Neutral": 13,
         "Negative": 0,
-        "total": 10
+        "total": 19
       },
       "Range Rover": {
         "Positive": 3,
-        "Neutral": 12,
+        "Neutral": 13,
         "Negative": 0,
-        "total": 15
+        "total": 16
       },
       "Jaguar": {
         "Positive": 3,
@@ -895,7 +895,7 @@
         "date": "2026-07-17"
       }
     ],
-    "executiveSummary": "Across 49 JLR (Jaguar Land Rover) reviews, sentiment is 27% positive, 71% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Discovery, Defender 110, I-PACE."
+    "executiveSummary": "Across 59 JLR (Jaguar Land Rover) reviews, sentiment is 22% positive, 76% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Defender General, Discovery General, Defender 110."
   },
   "tataAnalytics": null,
   "items": [
@@ -1220,22 +1220,6 @@
       "brand": "jlr"
     },
     {
-      "id": "twitter_1961051852054630831",
-      "platform": "Twitter",
-      "author": "@LandRover",
-      "date": "2025-08-28",
-      "event": "General",
-      "text": "The day is calling. Go answer it.​\n\n#Discovery\n\n——​ ​\n\nSmall print in the replies, just in case https://t.co/YeQvjcpMJV",
-      "sentiment": "Neutral",
-      "city": "Discovery",
-      "isUpcoming": false,
-      "parent_id": null,
-      "priority_score": 2,
-      "category_tag": "General",
-      "action_insight": "Leverage lifestyle-focused imagery to maintain brand aspiration while ensuring clear links to specific model configurators.",
-      "brand": "jlr"
-    },
-    {
       "id": "twitter_1961051141673722161",
       "platform": "Twitter",
       "author": "@RangeRover",
@@ -1249,6 +1233,38 @@
       "priority_score": 3,
       "category_tag": "Design",
       "action_insight": "Continue leveraging high-end craftsmanship and bespoke customization narratives to reinforce the brand's luxury positioning.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1961051852054630831",
+      "platform": "Twitter",
+      "author": "@LandRover",
+      "date": "2025-08-28",
+      "event": "Discovery General",
+      "text": "The day is calling. Go answer it.​\n\n#Discovery\n\n——​ ​\n\nSmall print in the replies, just in case https://t.co/YeQvjcpMJV",
+      "sentiment": "Neutral",
+      "city": "Discovery",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Continue leveraging lifestyle-oriented marketing campaigns to maintain brand engagement for the Discovery line.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1958889428262191592",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-08-22",
+      "event": "Defender General",
+      "text": "Getting underway. In the footsteps of the first girl to play. From Emily Valentine to the Enniskillen RFC U12s, women’s rugby is for the taking.  \n\nDefender. Principal Partner of the Women's Rugby World Cup 2025.\n\n#Defender #RWC2025​ ​ \n\nExplore the small print in the comments. https://t.co/6T98xnlr1I",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the brand's partnership with the Women's Rugby World Cup 2025 to drive community engagement and brand visibility through social media storytelling.",
       "brand": "jlr"
     },
     {
@@ -1268,6 +1284,38 @@
       "brand": "jlr"
     },
     {
+      "id": "twitter_1955932410916274277",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-08-14",
+      "event": "Defender General",
+      "text": "Enduring harsh conditions and nights away from their families, the rangers, supported by \n@tusk_org, play a vital role in the global biodiversity goal of protecting 30% of our planet by 2030.​ ​ \n\n#Defender​ ​ \n\nExplore the small print in the comments​. https://t.co/QAyZmqiBdb",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the partnership with Tusk Org to create more content highlighting the Defender's durability in conservation efforts to strengthen brand image.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1953833583237378404",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-08-08",
+      "event": "Defender General",
+      "text": "Before there was women’s rugby, there was Emily.​\n​\nEmily Valentine. 1887. The first ever female to score a try.​\n​\n#Defender #RWC2025​\n​\nExplore the small print in the comments. https://t.co/0HzqB4CUM5",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the brand's association with historical milestones and sports sponsorships to continue driving community engagement and brand storytelling.",
+      "brand": "jlr"
+    },
+    {
       "id": "twitter_1953033332570132594",
       "platform": "Twitter",
       "author": "@RangeRover",
@@ -1281,6 +1329,22 @@
       "priority_score": 4,
       "category_tag": "Performance",
       "action_insight": "Leverage the high engagement of the SV Carbon launch to highlight technical specifications and weight-saving engineering in follow-up content.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1948760152514900411",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-25",
+      "event": "Defender OCTA",
+      "text": "The most capable Defender yet. ​\n​\nDefender OCTA Black doesn’t just look stronger. It is. \n​\n#Defender #DefenderOCTA https://t.co/0Z34Sjzj9i",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "Performance",
+      "action_insight": "Amplify the marketing campaign by highlighting the performance capabilities of the new Defender OCTA to maintain high engagement with the off-road enthusiast community.",
       "brand": "jlr"
     },
     {
@@ -1316,19 +1380,99 @@
       "brand": "jlr"
     },
     {
+      "id": "twitter_1941157570770592055",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-04",
+      "event": "Defender OCTA",
+      "text": "OCTA Black is the new black.​ ​\n\nEngineered to absorb light, Narvik Black is the truest black in the Defender palette. The natural finish for our most capable Defender. ​ \n\n#Defender #DefenderOCTA​ ​ \n\nExplore the small print in the comments. https://t.co/wzfmUkcX5n",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "Design",
+      "action_insight": "Leverage the visual appeal of the new Narvik Black finish in marketing campaigns to maintain high interest in the upcoming Defender OCTA launch.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1941044363640947151",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-04",
+      "event": "Defender OCTA",
+      "text": "All-new. All-power. All Defender. Introducing Defender OCTA Black. ​\n​\nTwin-Turbo V8 power. 6D Dynamics suspension for control on any surface. \n​\nDefender, the Official Automotive Partner of @oasis  Live ‘25.\n​\n#Defender #DefenderOCTA​\n​\nExplore the small print in the comments. https://t.co/zWBZpkRWsR",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": true,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "Performance",
+      "action_insight": "Leverage the partnership with Oasis and the high-performance V8 branding to amplify social media engagement and pre-order interest for the upcoming Defender OCTA.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1940455709847802326",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-02",
+      "event": "Defender General",
+      "text": "Built to tour.\n\nDefender, the Official Automotive Partner of Oasis Live '25.\n\nFrom Cardiff to São Paulo, Defender will support all 41 tour dates across ten countries.\n\n#Defender #OasisLive25 \n\nExplore the small print in the comments. https://t.co/6W1WMgSyKr",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the partnership with Oasis Live '25 to create high-engagement social media content showcasing the Defender's touring capabilities.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1940065782093717769",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-01",
+      "event": "Defender General",
+      "text": "Defender Camp returns​. https://t.co/jrFhIS2Nsf",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the positive community engagement from the Defender Camp event to create user-generated content campaigns that highlight brand lifestyle.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_1940032068714709187",
+      "platform": "Twitter",
+      "author": "@Defender",
+      "date": "2025-07-01",
+      "event": "Defender General",
+      "text": "Glastonbury, mastered. ​\n​\nDefender was the Official Vehicle Partner of Glastonbury for the third year running, helping drive the mission at the festival.​\n​\nBuilding on a relationship that goes back to 1970. ​\n​\n#Defender #Glastonbury #Glastonbury2025​\n​\nExplore the small print https://t.co/J4zNCoIIxE",
+      "sentiment": "Neutral",
+      "city": "Defender",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Leverage the positive brand association with the Glastonbury festival in future marketing campaigns to reinforce the Defender's lifestyle and durability image.",
+      "brand": "jlr"
+    },
+    {
       "id": "twitter_1928043734979011057",
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-05-29",
-      "event": "Discovery",
+      "event": "Discovery General",
       "text": "A windows down policy.​\n\n#LandRoverDiscovery​\n​\n——​\n​\nSmall print in the replies, just in case https://t.co/4pQvv2GRSI",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": false,
       "parent_id": null,
-      "priority_score": 2,
+      "priority_score": 1,
       "category_tag": "General",
-      "action_insight": "Leverage the lifestyle-oriented 'windows down' messaging to create more user-generated content campaigns highlighting the Discovery's versatility.",
+      "action_insight": "Monitor social media engagement on this post to identify if the 'windows down' comment refers to a specific technical issue or a lifestyle preference.",
       "brand": "jlr"
     },
     {
@@ -1336,15 +1480,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-05-20",
-      "event": "Discovery",
+      "event": "Discovery General",
       "text": "Every dog has its day. Some get the whole weekend.​\n\nProudly joining the pack as the Official Automotive Partner of Goodwoof 2025.​\n\n#LandRoverDiscovery https://t.co/8ObXjUhXEm",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": false,
       "parent_id": null,
-      "priority_score": 2,
+      "priority_score": 1,
       "category_tag": "General",
-      "action_insight": "Leverage the partnership with Goodwoof to create lifestyle-focused content highlighting the Discovery's pet-friendly features and cargo versatility.",
+      "action_insight": "Leverage the partnership with Goodwoof 2025 to create lifestyle-focused marketing content highlighting the pet-friendly features of the Discovery.",
       "brand": "jlr"
     },
     {
@@ -1352,15 +1496,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-05-15",
-      "event": "Discovery",
+      "event": "Discovery Tempest Edition",
       "text": "Introducing Discovery Tempest Edition.​ ​ Inspired by a secret project for the second-generation Discovery in 1998.​ ​   \n\n#LandRoverDiscovery   \n\n——  \n\nExplore the replies for further info. https://t.co/KH1VxPYK0s",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": true,
       "parent_id": null,
-      "priority_score": 3,
+      "priority_score": 1,
       "category_tag": "Design",
-      "action_insight": "Leverage the heritage-inspired narrative of the Tempest Edition to drive engagement among brand enthusiasts and collectors.",
+      "action_insight": "Leverage the heritage-inspired narrative of the Tempest Edition to drive engagement and brand storytelling among Discovery enthusiasts.",
       "brand": "jlr"
     },
     {
@@ -1368,15 +1512,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-05-15",
-      "event": "Discovery",
+      "event": "Discovery Gemini Edition",
       "text": "Introducing Discovery Gemini Edition.​ ​ A tribute to the ingenious design of the original 1989 Discovery.​ ​\n  \n#LandRoverDiscovery   \n\n——  \n\nExplore the replies for further info. https://t.co/H89L46vZQQ",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": true,
       "parent_id": null,
-      "priority_score": 3,
+      "priority_score": 1,
       "category_tag": "Design",
-      "action_insight": "Monitor audience engagement and sentiment regarding the heritage-inspired design elements of the Gemini Edition to gauge interest in future retro-themed special editions.",
+      "action_insight": "Leverage the heritage-focused marketing of the Gemini Edition to engage long-term brand enthusiasts and drive traffic to the product page.",
       "brand": "jlr"
     },
     {
@@ -1384,15 +1528,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-05-13",
-      "event": "Discovery",
+      "event": "Discovery General",
       "text": "Room for what matters.\n\n#LandRoverDiscovery\n\n——\nExplore the replies for further info. https://t.co/1awMniZ9O3",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": false,
       "parent_id": null,
-      "priority_score": 2,
-      "category_tag": "Comfort",
-      "action_insight": "Monitor customer replies to identify specific lifestyle use-cases that resonate with the Discovery's interior space and versatility.",
+      "priority_score": 1,
+      "category_tag": "Design",
+      "action_insight": "Amplify this positive brand messaging by sharing user-generated content that highlights the practical interior space and versatility of the Discovery.",
       "brand": "jlr"
     },
     {
@@ -1400,15 +1544,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-04-10",
-      "event": "Discovery",
+      "event": "Discovery General",
       "text": "Don’t forget the marshmallows. \n\n#LandRoverDiscovery\n\n——  \n\nExplore the replies for further info. https://t.co/AdATQUiJof",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": false,
       "parent_id": null,
-      "priority_score": 2,
+      "priority_score": 1,
       "category_tag": "General",
-      "action_insight": "Leverage lifestyle-oriented content to highlight the vehicle's versatility and family-friendly utility.",
+      "action_insight": "Amplify this lifestyle-oriented content by sharing more user-generated imagery that highlights the Discovery's capability for outdoor adventure and family experiences.",
       "brand": "jlr"
     },
     {
@@ -1416,15 +1560,15 @@
       "platform": "Twitter",
       "author": "@LandRover",
       "date": "2025-03-27",
-      "event": "Discovery",
+      "event": "Discovery General",
       "text": "An exploration kind of day.​\n\n#LandRoverDiscovery ​\n\n——​\n​\nExplore the replies for further info. https://t.co/kY8dT0cGFc",
       "sentiment": "Neutral",
       "city": "Discovery",
       "isUpcoming": false,
       "parent_id": null,
-      "priority_score": 2,
+      "priority_score": 1,
       "category_tag": "General",
-      "action_insight": "Monitor engagement on the linked thread to identify specific customer questions regarding the Discovery's utility or lifestyle features.",
+      "action_insight": "Amplify this lifestyle-focused content by engaging with the user and sharing similar community-driven exploration stories to boost brand affinity.",
       "brand": "jlr"
     },
     {
@@ -1681,6 +1825,22 @@
       "priority_score": 2,
       "category_tag": "General",
       "action_insight": "Leverage the partnership with the British Red Cross to highlight the vehicle's durability and utility in humanitarian efforts.",
+      "brand": "jlr"
+    },
+    {
+      "id": "twitter_134827903174189056",
+      "platform": "Twitter",
+      "author": "@RangeRoverUSA",
+      "date": "2011-11-11",
+      "event": "Range Rover General",
+      "text": "Follow us @LandRoverUSA to stay up-to-date on the latest #LandRover and #RangeRover news, events and more.",
+      "sentiment": "Neutral",
+      "city": "Range Rover",
+      "isUpcoming": false,
+      "parent_id": null,
+      "priority_score": 1,
+      "category_tag": "General",
+      "action_insight": "Continue leveraging social media channels to drive brand engagement and community growth.",
       "brand": "jlr"
     }
   ]
