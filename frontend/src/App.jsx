@@ -157,20 +157,26 @@ function App() {
 
   const getStatsForItems = (items) => {
     const total = items.length;
+    // Total/platform/city counts include all feeds (e.g. 59), but sentiment
+    // percentages are computed over genuine customer/expert content only.
+    const reviewItems = items.filter((i) => !isPromotional(i));
     if (total === 0) return { totalFeedbackCount: 0, sentimentPercentages: { Positive: 0, Neutral: 0, Negative: 0 }, platformCounts: {}, cityCounts: {} };
     const sc = { Positive: 0, Neutral: 0, Negative: 0 };
     const pc = {}, cc = {};
     items.forEach((item) => {
-      sc[item.sentiment] = (sc[item.sentiment] || 0) + 1;
       pc[item.platform] = (pc[item.platform] || 0) + 1;
       cc[item.city] = (cc[item.city] || 0) + 1;
     });
+    reviewItems.forEach((item) => {
+      sc[item.sentiment] = (sc[item.sentiment] || 0) + 1;
+    });
+    const reviewTotal = reviewItems.length || 1;
     return {
       totalFeedbackCount: total,
       sentimentPercentages: {
-        Positive: (sc.Positive / total) * 100,
-        Neutral: (sc.Neutral / total) * 100,
-        Negative: (sc.Negative / total) * 100,
+        Positive: (sc.Positive / reviewTotal) * 100,
+        Neutral: (sc.Neutral / reviewTotal) * 100,
+        Negative: (sc.Negative / reviewTotal) * 100,
       },
       platformCounts: pc,
       cityCounts: cc,
@@ -219,7 +225,7 @@ function App() {
     }
     setFeedItems(filtered);
     const statsBase = filtered.length ? filtered : source.filter((i) => i.brand === activeBrand);
-    setStats(getStatsForItems(statsBase.filter((i) => !isPromotional(i))));
+    setStats(getStatsForItems(statsBase));
   }, [searchQuery, selectedPlatform, selectedSentiment, selectedBrandGroup, selectedCategory, allItems, activeBrand]);
 
   useEffect(() => {
