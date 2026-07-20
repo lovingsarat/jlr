@@ -1,10 +1,10 @@
 {
-  "exportedAt": "2026-07-20T19:58:08.038170Z",
+  "exportedAt": "2026-07-20T20:13:43.949642Z",
   "totalFeedbackCount": 59,
   "sentimentPercentages": {
-    "Positive": 22.03,
-    "Neutral": 76.27,
-    "Negative": 1.69
+    "Positive": 68.42,
+    "Neutral": 26.32,
+    "Negative": 5.26
   },
   "platformCounts": {
     "Reddit": 10,
@@ -26,183 +26,183 @@
   "analytics": {
     "trendingTerms": [
       {
-        "term": "http",
-        "count": 52,
-        "positive": 0,
-        "neutral": 52,
-        "negative": 0
-      },
-      {
-        "term": "explore",
-        "count": 16,
-        "positive": 0,
-        "neutral": 16,
-        "negative": 0
-      },
-      {
-        "term": "dynamic",
-        "count": 13,
-        "positive": 1,
-        "neutral": 12,
-        "negative": 0
-      },
-      {
-        "term": "comment",
-        "count": 11,
-        "positive": 0,
-        "neutral": 11,
-        "negative": 0
-      },
-      {
-        "term": "black",
-        "count": 11,
-        "positive": 0,
-        "neutral": 11,
-        "negative": 0
-      },
-      {
-        "term": "sport",
-        "count": 9,
-        "positive": 3,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "term": "small",
-        "count": 9,
-        "positive": 0,
-        "neutral": 9,
-        "negative": 0
-      },
-      {
-        "term": "print",
-        "count": 9,
-        "positive": 0,
-        "neutral": 9,
-        "negative": 0
-      },
-      {
         "term": "suspension",
-        "count": 8,
+        "count": 6,
         "positive": 5,
-        "neutral": 3,
-        "negative": 0
-      },
-      {
-        "term": "premium",
-        "count": 8,
-        "positive": 3,
-        "neutral": 5,
-        "negative": 0
-      },
-      {
-        "term": "luxury",
-        "count": 8,
-        "positive": 3,
-        "neutral": 5,
+        "neutral": 1,
         "negative": 0
       },
       {
         "term": "pace",
-        "count": 8,
+        "count": 6,
         "positive": 3,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "term": "road",
+        "count": 5,
+        "positive": 5,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "cabin",
+        "count": 5,
+        "positive": 4,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "charging",
+        "count": 5,
+        "positive": 0,
         "neutral": 4,
         "negative": 1
       },
       {
-        "term": "thi",
-        "count": 8,
-        "positive": 0,
-        "neutral": 8,
+        "term": "air",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
         "negative": 0
       },
       {
-        "term": "info",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
+        "term": "premium",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
         "negative": 0
       },
       {
-        "term": "rangerover",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
+        "term": "engine",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "off",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "sport",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "infotainment",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "pivi",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "pro",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "quality",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "absolutely",
+        "count": 3,
+        "positive": 3,
+        "neutral": 0,
         "negative": 0
       }
     ],
     "keyIssues": [
-      {
-        "theme": "Battery & Range",
-        "count": 14,
-        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
-      },
-      {
-        "theme": "After-Sales Service",
-        "count": 8,
-        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
-      },
       {
         "theme": "Charging Infrastructure",
         "count": 7,
         "example": "I-PACE owner for 2 years here. Driving dynamics are sporty and throttle response is sharp, but the 11kW AC charging limit is frustrating compared to newer EVs. JLR needs to upgrade"
       },
       {
-        "theme": "Comfort",
-        "count": 6,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Build Quality",
-        "count": 5,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Ride & Handling",
+        "theme": "After-Sales Service",
         "count": 5,
         "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       },
       {
-        "theme": "Infotainment",
+        "theme": "Comfort",
         "count": 3,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Build Quality",
+        "count": 2,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Battery & Range",
+        "count": 2,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Infotainment",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Ride & Handling",
+        "count": 2,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       }
     ],
     "topPraises": [
       {
+        "theme": "Off-road Capability",
+        "count": 9,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
         "theme": "EV Experience",
-        "count": 18,
+        "count": 7,
         "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
       },
       {
-        "theme": "Design & Styling",
-        "count": 15,
-        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
-      },
-      {
         "theme": "Comfort & Luxury",
-        "count": 12,
-        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
-      },
-      {
-        "theme": "Off-road Capability",
-        "count": 11,
-        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
-      },
-      {
-        "theme": "Interior Quality",
-        "count": 10,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Performance",
         "count": 6,
-        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
       },
       {
         "theme": "Practicality",
         "count": 6,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Design & Styling",
+        "count": 4,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Performance",
+        "count": 3,
+        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+      },
+      {
+        "theme": "Interior Quality",
+        "count": 3,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
         "theme": "Value for Money",
@@ -212,34 +212,6 @@
     ],
     "topEvents": [
       {
-        "event": "Defender General",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "event": "Discovery General",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "event": "Defender 110",
-        "count": 4,
-        "positive": 2,
-        "neutral": 2,
-        "negative": 0
-      },
-      {
-        "event": "Defender OCTA",
-        "count": 4,
-        "positive": 1,
-        "neutral": 3,
-        "negative": 0
-      },
-      {
         "event": "I-PACE",
         "count": 3,
         "positive": 0,
@@ -247,44 +219,56 @@
         "negative": 1
       },
       {
-        "event": "F-PACE",
-        "count": 3,
+        "event": "Defender 110",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Defender OCTA",
+        "count": 1,
         "positive": 1,
-        "neutral": 2,
+        "neutral": 0,
         "negative": 0
       },
       {
         "event": "Range Rover Sport",
-        "count": 2,
+        "count": 1,
         "positive": 1,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0
       },
       {
         "event": "Discovery Sport",
-        "count": 2,
+        "count": 1,
         "positive": 0,
-        "neutral": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Velar",
+        "count": 1,
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Defender 130",
+        "count": 1,
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Evoque",
+        "count": 1,
+        "positive": 1,
+        "neutral": 0,
         "negative": 0
       }
     ],
     "topAuthors": [
-      {
-        "author": "@LandRoverUK",
-        "count": 16
-      },
-      {
-        "author": "@Defender",
-        "count": 9
-      },
-      {
-        "author": "@LandRover",
-        "count": 8
-      },
-      {
-        "author": "@RangeRover",
-        "count": 6
-      },
       {
         "author": "AutoExpress Expert",
         "count": 5
@@ -300,6 +284,22 @@
       {
         "author": "u/MuddyGearbox",
         "count": 1
+      },
+      {
+        "author": "u/Overland_OCTA",
+        "count": 1
+      },
+      {
+        "author": "u/LuxuryCruiser",
+        "count": 1
+      },
+      {
+        "author": "u/ElectricCat",
+        "count": 1
+      },
+      {
+        "author": "u/DiscoFamily",
+        "count": 1
       }
     ],
     "sentimentByDate": {
@@ -312,98 +312,32 @@
         "Positive": 6,
         "Neutral": 2,
         "Negative": 1
-      },
-      "2025-08-29": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-28": {
-        "Positive": 0,
-        "Neutral": 2,
-        "Negative": 0
-      },
-      "2025-08-22": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-15": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-14": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-08": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-06": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-25": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-23": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-10": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-04": {
-        "Positive": 0,
-        "Neutral": 2,
-        "Negative": 0
-      },
-      "2025-07-02": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
       }
     },
     "citySentiment": {
       "Defender": {
         "Positive": 6,
-        "Neutral": 13,
+        "Neutral": 0,
         "Negative": 0,
-        "total": 19
+        "total": 6
       },
       "Range Rover": {
         "Positive": 3,
-        "Neutral": 13,
+        "Neutral": 2,
         "Negative": 0,
-        "total": 16
+        "total": 5
       },
       "Jaguar": {
         "Positive": 3,
-        "Neutral": 4,
+        "Neutral": 2,
         "Negative": 1,
-        "total": 8
+        "total": 6
       },
       "Discovery": {
         "Positive": 1,
-        "Neutral": 11,
+        "Neutral": 1,
         "Negative": 0,
-        "total": 12
-      },
-      "General": {
-        "Positive": 0,
-        "Neutral": 4,
-        "Negative": 0,
-        "total": 4
+        "total": 2
       }
     },
     "topNegativePosts": [
@@ -458,188 +392,188 @@
         "date": "2026-07-17"
       }
     ],
-    "executiveSummary": "Across 59 JLR (Jaguar Land Rover) reviews, sentiment is 22% positive, 76% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Defender General, Discovery General, Defender 110."
+    "executiveSummary": "Across 19 JLR (Jaguar Land Rover) reviews, sentiment is 68% positive, 26% neutral, and 5% negative. Key concerns: Charging Infrastructure, After-Sales Service, Comfort. Most praised aspects: Off-road Capability, EV Experience, Comfort & Luxury. Most reviewed models: I-PACE, Defender 110, Defender OCTA."
   },
   "jlrAnalytics": {
     "trendingTerms": [
       {
-        "term": "http",
-        "count": 52,
-        "positive": 0,
-        "neutral": 52,
-        "negative": 0
-      },
-      {
-        "term": "explore",
-        "count": 16,
-        "positive": 0,
-        "neutral": 16,
-        "negative": 0
-      },
-      {
-        "term": "dynamic",
-        "count": 13,
-        "positive": 1,
-        "neutral": 12,
-        "negative": 0
-      },
-      {
-        "term": "comment",
-        "count": 11,
-        "positive": 0,
-        "neutral": 11,
-        "negative": 0
-      },
-      {
-        "term": "black",
-        "count": 11,
-        "positive": 0,
-        "neutral": 11,
-        "negative": 0
-      },
-      {
-        "term": "sport",
-        "count": 9,
-        "positive": 3,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "term": "small",
-        "count": 9,
-        "positive": 0,
-        "neutral": 9,
-        "negative": 0
-      },
-      {
-        "term": "print",
-        "count": 9,
-        "positive": 0,
-        "neutral": 9,
-        "negative": 0
-      },
-      {
         "term": "suspension",
-        "count": 8,
+        "count": 6,
         "positive": 5,
-        "neutral": 3,
-        "negative": 0
-      },
-      {
-        "term": "premium",
-        "count": 8,
-        "positive": 3,
-        "neutral": 5,
-        "negative": 0
-      },
-      {
-        "term": "luxury",
-        "count": 8,
-        "positive": 3,
-        "neutral": 5,
+        "neutral": 1,
         "negative": 0
       },
       {
         "term": "pace",
-        "count": 8,
+        "count": 6,
         "positive": 3,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "term": "road",
+        "count": 5,
+        "positive": 5,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "cabin",
+        "count": 5,
+        "positive": 4,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "charging",
+        "count": 5,
+        "positive": 0,
         "neutral": 4,
         "negative": 1
       },
       {
-        "term": "thi",
-        "count": 8,
-        "positive": 0,
-        "neutral": 8,
+        "term": "air",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
         "negative": 0
       },
       {
-        "term": "info",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
+        "term": "premium",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
         "negative": 0
       },
       {
-        "term": "rangerover",
-        "count": 7,
-        "positive": 0,
-        "neutral": 7,
+        "term": "engine",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "off",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "sport",
+        "count": 4,
+        "positive": 3,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "infotainment",
+        "count": 4,
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "term": "pivi",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "pro",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "quality",
+        "count": 3,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "term": "absolutely",
+        "count": 3,
+        "positive": 3,
+        "neutral": 0,
         "negative": 0
       }
     ],
     "keyIssues": [
-      {
-        "theme": "Battery & Range",
-        "count": 14,
-        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
-      },
-      {
-        "theme": "After-Sales Service",
-        "count": 8,
-        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
-      },
       {
         "theme": "Charging Infrastructure",
         "count": 7,
         "example": "I-PACE owner for 2 years here. Driving dynamics are sporty and throttle response is sharp, but the 11kW AC charging limit is frustrating compared to newer EVs. JLR needs to upgrade"
       },
       {
-        "theme": "Comfort",
-        "count": 6,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Build Quality",
-        "count": 5,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Ride & Handling",
+        "theme": "After-Sales Service",
         "count": 5,
         "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       },
       {
-        "theme": "Infotainment",
+        "theme": "Comfort",
         "count": 3,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Build Quality",
+        "count": 2,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
+      },
+      {
+        "theme": "Battery & Range",
+        "count": 2,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Infotainment",
+        "count": 2,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Ride & Handling",
+        "count": 2,
+        "example": "Had my Range Rover Velar serviced last week. The dealership service was outstanding but the wait time for the air suspension component replacement took 10 days! The car drives perf"
       }
     ],
     "topPraises": [
       {
+        "theme": "Off-road Capability",
+        "count": 9,
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
+      },
+      {
         "theme": "EV Experience",
-        "count": 18,
+        "count": 7,
         "example": "The acoustic double glazing on the new Range Rover Sport is mind-blowing. Silence in the cabin at highway speeds. However, the rear infotainment screens had a software glitch where"
       },
       {
-        "theme": "Design & Styling",
-        "count": 15,
-        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
-      },
-      {
         "theme": "Comfort & Luxury",
-        "count": 12,
-        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
-      },
-      {
-        "theme": "Off-road Capability",
-        "count": 11,
-        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
-      },
-      {
-        "theme": "Interior Quality",
-        "count": 10,
-        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
-      },
-      {
-        "theme": "Performance",
         "count": 6,
-        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+        "example": "My Defender 110 Wade Sensing saved me today during a sudden flash flood. The air suspension automatically lifted to maximum ground clearance. Pivi Pro navigation displayed the dept"
       },
       {
         "theme": "Practicality",
         "count": 6,
         "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Design & Styling",
+        "count": 4,
+        "example": "Range Rover Velar has the cleanest interior design, but the dual touchscreens attract fingerprints like crazy. Pivi Pro system sometimes lags when cold starting. Cabin quality is p"
+      },
+      {
+        "theme": "Performance",
+        "count": 3,
+        "example": "Took delivery of the Defender OCTA last week. That twin-turbo V8 engine is insanely quick and the 6D Dynamics suspension makes it float over rugged terrain like a magic carpet. Tru"
+      },
+      {
+        "theme": "Interior Quality",
+        "count": 3,
+        "example": "The third row in the Discovery Sport is actually usable for kids, which is rare in this class. Interior space is well thought out and comfortable. However, fuel economy on the petr"
       },
       {
         "theme": "Value for Money",
@@ -649,34 +583,6 @@
     ],
     "topEvents": [
       {
-        "event": "Defender General",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "event": "Discovery General",
-        "count": 7,
-        "positive": 1,
-        "neutral": 6,
-        "negative": 0
-      },
-      {
-        "event": "Defender 110",
-        "count": 4,
-        "positive": 2,
-        "neutral": 2,
-        "negative": 0
-      },
-      {
-        "event": "Defender OCTA",
-        "count": 4,
-        "positive": 1,
-        "neutral": 3,
-        "negative": 0
-      },
-      {
         "event": "I-PACE",
         "count": 3,
         "positive": 0,
@@ -684,44 +590,56 @@
         "negative": 1
       },
       {
-        "event": "F-PACE",
-        "count": 3,
+        "event": "Defender 110",
+        "count": 2,
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Defender OCTA",
+        "count": 1,
         "positive": 1,
-        "neutral": 2,
+        "neutral": 0,
         "negative": 0
       },
       {
         "event": "Range Rover Sport",
-        "count": 2,
+        "count": 1,
         "positive": 1,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0
       },
       {
         "event": "Discovery Sport",
-        "count": 2,
+        "count": 1,
         "positive": 0,
-        "neutral": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Velar",
+        "count": 1,
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "event": "Defender 130",
+        "count": 1,
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "event": "Evoque",
+        "count": 1,
+        "positive": 1,
+        "neutral": 0,
         "negative": 0
       }
     ],
     "topAuthors": [
-      {
-        "author": "@LandRoverUK",
-        "count": 16
-      },
-      {
-        "author": "@Defender",
-        "count": 9
-      },
-      {
-        "author": "@LandRover",
-        "count": 8
-      },
-      {
-        "author": "@RangeRover",
-        "count": 6
-      },
       {
         "author": "AutoExpress Expert",
         "count": 5
@@ -737,6 +655,22 @@
       {
         "author": "u/MuddyGearbox",
         "count": 1
+      },
+      {
+        "author": "u/Overland_OCTA",
+        "count": 1
+      },
+      {
+        "author": "u/LuxuryCruiser",
+        "count": 1
+      },
+      {
+        "author": "u/ElectricCat",
+        "count": 1
+      },
+      {
+        "author": "u/DiscoFamily",
+        "count": 1
       }
     ],
     "sentimentByDate": {
@@ -749,98 +683,32 @@
         "Positive": 6,
         "Neutral": 2,
         "Negative": 1
-      },
-      "2025-08-29": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-28": {
-        "Positive": 0,
-        "Neutral": 2,
-        "Negative": 0
-      },
-      "2025-08-22": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-15": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-14": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-08": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-08-06": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-25": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-23": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-10": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
-      },
-      "2025-07-04": {
-        "Positive": 0,
-        "Neutral": 2,
-        "Negative": 0
-      },
-      "2025-07-02": {
-        "Positive": 0,
-        "Neutral": 1,
-        "Negative": 0
       }
     },
     "citySentiment": {
       "Defender": {
         "Positive": 6,
-        "Neutral": 13,
+        "Neutral": 0,
         "Negative": 0,
-        "total": 19
+        "total": 6
       },
       "Range Rover": {
         "Positive": 3,
-        "Neutral": 13,
+        "Neutral": 2,
         "Negative": 0,
-        "total": 16
+        "total": 5
       },
       "Jaguar": {
         "Positive": 3,
-        "Neutral": 4,
+        "Neutral": 2,
         "Negative": 1,
-        "total": 8
+        "total": 6
       },
       "Discovery": {
         "Positive": 1,
-        "Neutral": 11,
+        "Neutral": 1,
         "Negative": 0,
-        "total": 12
-      },
-      "General": {
-        "Positive": 0,
-        "Neutral": 4,
-        "Negative": 0,
-        "total": 4
+        "total": 2
       }
     },
     "topNegativePosts": [
@@ -895,7 +763,7 @@
         "date": "2026-07-17"
       }
     ],
-    "executiveSummary": "Across 59 JLR (Jaguar Land Rover) reviews, sentiment is 22% positive, 76% neutral, and 2% negative. Key concerns: Battery & Range, After-Sales Service, Charging Infrastructure. Most praised aspects: EV Experience, Design & Styling, Comfort & Luxury. Most reviewed models: Defender General, Discovery General, Defender 110."
+    "executiveSummary": "Across 19 JLR (Jaguar Land Rover) reviews, sentiment is 68% positive, 26% neutral, and 5% negative. Key concerns: Charging Infrastructure, After-Sales Service, Comfort. Most praised aspects: Off-road Capability, EV Experience, Comfort & Luxury. Most reviewed models: I-PACE, Defender 110, Defender OCTA."
   },
   "tataAnalytics": null,
   "items": [

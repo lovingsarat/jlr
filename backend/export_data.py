@@ -181,6 +181,19 @@ MODEL_ALIASES = {
 }
 
 
+# ─── Promotional content detection ────────────────────────────────────────────
+OFFICIAL_BRAND_AUTHORS = {
+    "@landrover", "@landroveruk", "@landroverna", "@jaguar",
+    "@rangerover", "@rangeroverusa", "@defender",
+}
+
+
+def is_promotional(item: dict) -> bool:
+    """Official brand-account posts are marketing, not customer opinions.
+    They stay in the feed but are excluded from sentiment statistics."""
+    return item["platform"] == "Twitter" and (item["author"] or "").lower() in OFFICIAL_BRAND_AUTHORS
+
+
 # ─── Deduplication helpers ────────────────────────────────────────────────────
 def get_text_tokens(text: str) -> set:
     return set(re.findall(r"[a-z0-9]+", text.lower()))
@@ -454,7 +467,9 @@ def export_to_json():
         }
 
     total = len(all_items)
-    jlr_pct = compute_sentiment_pct(jlr_items)
+    # Sentiment stats are computed over genuine customer/expert reviews only
+    review_items = [i for i in jlr_items if not is_promotional(i)]
+    jlr_pct = compute_sentiment_pct(review_items)
 
     # Platform and brand_group counts
     platform_counts: dict = {}
@@ -472,8 +487,8 @@ def export_to_json():
         "platformCounts": platform_counts,
         "cityCounts": brand_group_counts,        # brand_group stored here (city field)
         "brandCounts": brand_counts,
-        "analytics": build_analytics(jlr_items, jlr_pct, "jlr"),
-        "jlrAnalytics": build_analytics(jlr_items, jlr_pct, "jlr"),
+        "analytics": build_analytics(review_items, jlr_pct, "jlr"),
+        "jlrAnalytics": build_analytics(review_items, jlr_pct, "jlr"),
         "tataAnalytics": None,
         "items": jlr_items,
     }

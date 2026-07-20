@@ -4,6 +4,15 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./App.css";
 
 const STATIC_DATA_URL = `${import.meta.env.BASE_URL}data.json`;
+
+// Official brand accounts — their promotional posts are shown in the feed but
+// excluded from sentiment statistics (they are not customer opinions).
+const OFFICIAL_BRAND_AUTHORS = new Set([
+  "@landrover", "@landroveruk", "@landroverna", "@jaguar",
+  "@rangerover", "@rangeroverusa", "@defender",
+]);
+const isPromotional = (item) =>
+  item.platform === "Twitter" && OFFICIAL_BRAND_AUTHORS.has((item.author || "").toLowerCase());
 const ENV_GEMINI_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
 const GEMINI_MODEL = "gemini-3.1-flash-lite";
 const GEMINI_API_URL = (apiKey) =>
@@ -209,7 +218,8 @@ function App() {
       filtered = filtered.filter((i) => i.text.toLowerCase().includes(q) || i.event.toLowerCase().includes(q) || i.author.toLowerCase().includes(q));
     }
     setFeedItems(filtered);
-    setStats(getStatsForItems(filtered.length ? filtered : source.filter((i) => i.brand === activeBrand)));
+    const statsBase = filtered.length ? filtered : source.filter((i) => i.brand === activeBrand);
+    setStats(getStatsForItems(statsBase.filter((i) => !isPromotional(i))));
   }, [searchQuery, selectedPlatform, selectedSentiment, selectedBrandGroup, selectedCategory, allItems, activeBrand]);
 
   useEffect(() => {
@@ -586,9 +596,9 @@ User question: ${trimmed}`;
                     </div>
                   </div>
                   <div className="chart-legend">
-                    <div className="legend-item"><span className="legend-indicator positive" /><span className="legend-name">Positive</span><span className="legend-count">{feedItems.filter(i => i.sentiment === "Positive").length} ({Math.round(positivePct)}%)</span></div>
-                    <div className="legend-item"><span className="legend-indicator neutral" /><span className="legend-name">Neutral</span><span className="legend-count">{feedItems.filter(i => i.sentiment === "Neutral").length} ({Math.round(neutralPct)}%)</span></div>
-                    <div className="legend-item"><span className="legend-indicator negative" /><span className="legend-name">Negative</span><span className="legend-count">{feedItems.filter(i => i.sentiment === "Negative").length} ({Math.round(negativePct)}%)</span></div>
+                    <div className="legend-item"><span className="legend-indicator positive" /><span className="legend-name">Positive</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Positive").length} ({Math.round(positivePct)}%)</span></div>
+                    <div className="legend-item"><span className="legend-indicator neutral" /><span className="legend-name">Neutral</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Neutral").length} ({Math.round(neutralPct)}%)</span></div>
+                    <div className="legend-item"><span className="legend-indicator negative" /><span className="legend-name">Negative</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Negative").length} ({Math.round(negativePct)}%)</span></div>
                   </div>
                 </div>
               </section>
