@@ -324,6 +324,12 @@ function App() {
 
     const prompt = `You are a ${brandLabel} Vehicle Intelligence Assistant. You analyze customer reviews, owner feedback, and expert opinions for ${brandLabel} vehicles.
 
+STRICT SCOPE POLICY (non-negotiable):
+- You ONLY answer questions about ${brandLabel} vehicles, models, brands, customer reviews, sentiment, ownership experience, or this dashboard's data.
+- If the user's question is NOT related to these topics (e.g. general knowledge, other car brands, coding, politics, weather, entertainment, personal advice), you MUST refuse. Do NOT answer it, do NOT use web search for it.
+- For refusals, set "answer" to a brief polite message such as: "I can only help with ${brandLabel} vehicle reviews, sentiment, and insights from this dashboard. Please ask me something about ${brandLabel} models or customer feedback." Set "sourceType" to "database" and provide followUps that are valid ${brandLabel} questions.
+- Web search may ONLY be used for ${brandLabel}-related topics (e.g. latest ${brandLabel} model news, specs, recalls). Never search for anything else.
+
 Your output must be a valid JSON object matching this structure exactly (no markdown wrappers, no extra characters, JSON only):
 {
   "answer": "Your detailed, concise response to the user's question, citing models and percentages when appropriate.",
