@@ -6,6 +6,7 @@ Subreddits: r/landrover, r/jaguar, r/RangeRover, r/Defender, r/IndiaCars, r/Tata
 import os
 import sys
 import json
+import hashlib
 import sqlite3
 import time
 from datetime import datetime, timezone
@@ -453,7 +454,7 @@ def generate_fallback_reddit_data() -> int:
         analysis = analyze_with_gemini(text, p["brand"])
         
         item = {
-            "id": f"reddit_fb_{abs(hash(text))}",
+            "id": f"reddit_fb_{hashlib.md5(text.strip().lower().encode('utf-8')).hexdigest()[:16]}",
             "platform": "Reddit",
             "author": p["author"],
             "date": datetime.now().strftime("%Y-%m-%d"),

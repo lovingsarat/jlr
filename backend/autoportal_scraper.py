@@ -6,6 +6,7 @@ Uses Playwright for JS-rendered pages. Run as subprocess from scraper.py.
 import os
 import sys
 import json
+import hashlib
 import sqlite3
 import time
 import re
@@ -19,6 +20,14 @@ load_dotenv()
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "diaspora.db")
 GEMINI_MODEL = "gemini-3.1-flash-lite"
+
+
+def stable_id(text: str) -> str:
+    """Deterministic content hash. Python's built-in hash() is randomized per
+    process (PYTHONHASHSEED), which previously created duplicate rows with
+    different IDs on every scraper run."""
+    return hashlib.md5(text.strip().lower().encode("utf-8")).hexdigest()[:16]
+
 
 # ─── Review source URLs ───────────────────────────────────────────────────────
 # AutoExpress review pages (JLR) — public, no login
@@ -213,7 +222,7 @@ def scrape_autoexpress_reviews(url: str, vehicle_model: str, brand_hint: str) ->
                 analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
                 time.sleep(0.5)
 
-                item_id = f"autoexpress_{abs(hash(text))}"
+                item_id = f"autoexpress_{stable_id(text)}"
                 item = {
                     "id": item_id,
                     "platform": "AutoExpress",
@@ -250,7 +259,7 @@ def scrape_autoexpress_reviews(url: str, vehicle_model: str, brand_hint: str) ->
         text = fallback_data.get(vehicle_model, f"The JLR {vehicle_model} review is highly positive regarding build quality, ride comfort, and off-road safety, with premium pricing being the primary concern.")
         analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
         item = {
-            "id": f"autoexpress_fb_{abs(hash(text))}",
+            "id": f"autoexpress_fb_{stable_id(text)}",
             "platform": "AutoExpress",
             "author": "AutoExpress Expert",
             "date": datetime.now().strftime("%Y-%m-%d"),
@@ -314,7 +323,7 @@ def scrape_cardekho_reviews(url: str, vehicle_model: str, brand_hint: str) -> in
                     analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
                     time.sleep(0.5)
 
-                    item_id = f"cardekho_{abs(hash(text))}"
+                    item_id = f"cardekho_{stable_id(text)}"
                     item = {
                         "id": item_id,
                         "platform": "CarDekho",
@@ -352,7 +361,7 @@ def scrape_cardekho_reviews(url: str, vehicle_model: str, brand_hint: str) -> in
         text = fallback_data.get(vehicle_model, f"The Tata {vehicle_model} review is highly positive regarding safety, local build quality, and value, with low-RPM diesel response or local service wait times being minor concerns.")
         analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
         item = {
-            "id": f"cardekho_fb_{abs(hash(text))}",
+            "id": f"cardekho_fb_{stable_id(text)}",
             "platform": "CarDekho",
             "author": "CarDekho User",
             "date": datetime.now().strftime("%Y-%m-%d"),
@@ -397,7 +406,7 @@ def scrape_trustpilot_reviews(url: str, vehicle_model: str, brand_hint: str) -> 
                 
                 analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
                 item = {
-                    "id": f"trustpilot_{abs(hash(text))}",
+                    "id": f"trustpilot_{stable_id(text)}",
                     "platform": "Trustpilot",
                     "author": "Trustpilot User",
                     "date": datetime.now().strftime("%Y-%m-%d"),
@@ -425,7 +434,7 @@ def scrape_trustpilot_reviews(url: str, vehicle_model: str, brand_hint: str) -> 
         for text in fallback_texts:
             analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
             item = {
-                "id": f"trustpilot_fb_{abs(hash(text))}",
+                "id": f"trustpilot_fb_{stable_id(text)}",
                 "platform": "Trustpilot",
                 "author": "Verified Customer",
                 "date": datetime.now().strftime("%Y-%m-%d"),
@@ -469,7 +478,7 @@ def scrape_teambhp_threads(url: str, vehicle_model: str, brand_hint: str) -> int
                 
                 analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
                 item = {
-                    "id": f"teambhp_{abs(hash(text))}",
+                    "id": f"teambhp_{stable_id(text)}",
                     "platform": "Team-BHP",
                     "author": "BHPian Member",
                     "date": datetime.now().strftime("%Y-%m-%d"),
@@ -496,7 +505,7 @@ def scrape_teambhp_threads(url: str, vehicle_model: str, brand_hint: str) -> int
         for text in fallback_texts:
             analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
             item = {
-                "id": f"teambhp_fb_{abs(hash(text))}",
+                "id": f"teambhp_fb_{stable_id(text)}",
                 "platform": "Team-BHP",
                 "author": "Senior BHPian",
                 "date": datetime.now().strftime("%Y-%m-%d"),
@@ -540,7 +549,7 @@ def scrape_zigwheels_reviews(url: str, vehicle_model: str, brand_hint: str) -> i
                 
                 analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
                 item = {
-                    "id": f"zigwheels_{abs(hash(text))}",
+                    "id": f"zigwheels_{stable_id(text)}",
                     "platform": "Zigwheels",
                     "author": "Zigwheels User",
                     "date": datetime.now().strftime("%Y-%m-%d"),
@@ -567,7 +576,7 @@ def scrape_zigwheels_reviews(url: str, vehicle_model: str, brand_hint: str) -> i
         for text in fallback_texts:
             analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
             item = {
-                "id": f"zigwheels_fb_{abs(hash(text))}",
+                "id": f"zigwheels_fb_{stable_id(text)}",
                 "platform": "Zigwheels",
                 "author": "Auto Enthusiast",
                 "date": datetime.now().strftime("%Y-%m-%d"),
@@ -604,7 +613,7 @@ def scrape_youtube_reviews(url: str, vehicle_model: str, brand_hint: str) -> int
     for text in comments:
         analysis = analyze_with_gemini(text, brand_hint, vehicle_model)
         item = {
-            "id": f"youtube_{abs(hash(text))}",
+            "id": f"youtube_{stable_id(text)}",
             "platform": "YouTube",
             "author": "YT Review Viewer",
             "date": datetime.now().strftime("%Y-%m-%d"),

@@ -36,10 +36,22 @@ JLR_KEYWORDS = [
 ]
 ALL_AUTOMOTIVE_KEYWORDS = JLR_KEYWORDS
 
+# Competitor makes — posts about these vehicles must not be ingested as JLR reviews
+COMPETITOR_KEYWORDS = [
+    "nissan", "navara", "jeep", "compass", "ford", "transit", "toyota",
+    "bmw", "mercedes", "audi", "volvo", "porsche", "kia", "hyundai",
+    "volkswagen", "skoda", "peugeot", "renault", "vauxhall", "honda", "mazda",
+]
+
 
 def is_automotive_relevant(text: str) -> bool:
     text_lower = text.lower()
-    return any(kw in text_lower for kw in ALL_AUTOMOTIVE_KEYWORDS)
+    has_jlr = any(kw in text_lower for kw in ALL_AUTOMOTIVE_KEYWORDS)
+    has_competitor = any(kw in text_lower for kw in COMPETITOR_KEYWORDS)
+    # Reject posts about competitor vehicles (e.g. dealer inventory tweets
+    # for Nissan/Jeep/Ford). A post is relevant only if a JLR vehicle is
+    # mentioned and no competitor make dominates the content.
+    return has_jlr and not has_competitor
 
 
 def detect_brand(text: str) -> str:
@@ -509,7 +521,7 @@ async def run_account_scraper():
 
     total_added = 0
     for account in ALL_BRAND_ACCOUNTS:
-        brand_hint = "tata" if account in TATA_ACCOUNTS else "jlr"
+        brand_hint = "jlr"
         print(f"\n--- Fetching tweets from @{account} ---")
         try:
             user = await client.get_user_by_screen_name(account)
@@ -528,6 +540,9 @@ async def run_account_scraper():
             for tweet in tweet_list:
                 try:
                     tweet_id = f"twitter_{tweet.id}"
+                    if not is_automotive_relevant(tweet.text):
+                        print(f"[SKIP] Non-JLR/promotional content from @{account}")
+                        continue
                     analysis = analyze_review_with_gemini(tweet.text, brand_hint)
 
                     try:
@@ -546,7 +561,9 @@ async def run_account_scraper():
                         "date": date_str,
                         "event": analysis.get("vehicle_model", "General"),
                         "text": tweet.text,
-                        "sentiment": analysis.get("sentiment", "Neutral"),
+                        # Own-brand promotional posts are not customer opinions;
+                        # they must not inflate the positive sentiment score.
+                        "sentiment": "Neutral",
                         "city": analysis.get("brand_group", "General"),
                         "isUpcoming": bool(analysis.get("isUpcoming")),
                         "parent_id": None,
@@ -605,7 +622,7 @@ def deduplicate_db():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(
-        "SELECT id, platform, author, date, event, text, sentiment, city, isUpcoming, parent_id FROM feedback_items"
+        "SELECT id, platform, author, date, event, text, sentiment, city, isUpcoming, parent_id, priority_score, category_tag, action_insight, brand FROM feedback_items"
     )
     rows = cursor.fetchall()
 
@@ -651,7 +668,7 @@ def deduplicate_db():
         cursor.execute("DELETE FROM feedback_items")
         for row in unique:
             cursor.execute(
-                "INSERT INTO feedback_items (id, platform, author, date, event, text, sentiment, city, isUpcoming, parent_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                "INSERT INTO feedback_items (id, platform, author, date, event, text, sentiment, city, isUpcoming, parent_id, priority_score, category_tag, action_insight, brand) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 row,
             )
         conn.commit()
