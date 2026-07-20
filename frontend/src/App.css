@@ -958,6 +958,15 @@ body {
   border: 1px solid rgba(245, 158, 11, 0.3);
 }
 
+.sentiment-footnote {
+  margin-top: 12px;
+  font-size: 10px;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+  text-align: center;
+}
+
 /* Typing Loader */
 .typing-loader {
   display: flex;

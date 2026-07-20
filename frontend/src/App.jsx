@@ -606,6 +606,10 @@ User question: ${trimmed}`;
                     <div className="legend-item"><span className="legend-indicator neutral" /><span className="legend-name">Neutral</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Neutral").length} ({Math.round(neutralPct)}%)</span></div>
                     <div className="legend-item"><span className="legend-indicator negative" /><span className="legend-name">Negative</span><span className="legend-count">{feedItems.filter(i => !isPromotional(i) && i.sentiment === "Negative").length} ({Math.round(negativePct)}%)</span></div>
                   </div>
+                  <p className="sentiment-footnote">
+                    *Sentiment scores reflect genuine customer & expert reviews only.
+                    Official brand posts are shown in the feed (for context) but excluded from this calculation.
+                  </p>
                 </div>
               </section>
 
