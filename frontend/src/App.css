@@ -929,6 +929,35 @@ body {
   white-space: pre-wrap;
 }
 
+.source-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 3px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.source-badge.source-database {
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.source-badge.source-external {
+  background-color: rgba(14, 165, 233, 0.12);
+  color: #0ea5e9;
+  border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.source-badge.source-hybrid {
+  background-color: rgba(245, 158, 11, 0.12);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
 /* Typing Loader */
 .typing-loader {
   display: flex;

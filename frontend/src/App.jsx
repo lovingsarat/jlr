@@ -302,7 +302,7 @@ function App() {
     if (cachedResponse) {
       try {
         const parsed = JSON.parse(cachedResponse);
-        setChatMessages((prev) => [...prev, { sender: "BOT", text: parsed.answer, timestamp: Date.now() }]);
+        setChatMessages((prev) => [...prev, { sender: "BOT", text: parsed.answer, sourceType: parsed.sourceType, timestamp: Date.now() }]);
         setActiveFollowUps(parsed.followUps || []);
         setIsChatLoading(false);
         return;
@@ -324,15 +324,22 @@ function App() {
 
     const prompt = `You are a ${brandLabel} Vehicle Intelligence Assistant. You analyze customer reviews, owner feedback, and expert opinions for ${brandLabel} vehicles.
 
-Your output must be a valid JSON object matching this structure exactly (do not output any markdown wrappers or extra characters):
+Your output must be a valid JSON object matching this structure exactly (no markdown wrappers, no extra characters, JSON only):
 {
   "answer": "Your detailed, concise response to the user's question, citing models and percentages when appropriate.",
+  "sourceType": "database" | "external" | "hybrid",
   "followUps": [
     "A short follow-up question the user might want to ask next",
     "Another follow-up question",
     "A third follow-up question"
   ]
 }
+
+Grounding rules for "sourceType":
+- "database": the answer is fully supported by the ANALYTICS SUMMARY / REVIEW CONTEXT below.
+- "external": the answer required web search or your general knowledge because the indexed reviews do not cover it.
+- "hybrid": the answer combines the indexed review data with external/web knowledge.
+Always prefer the REVIEW CONTEXT first. Only use web search or general knowledge when the context cannot answer the question, and clearly reflect that in "sourceType".
 
 Make sure the followUps questions are highly relevant, specific, and based on the answer you provided.
 
@@ -350,24 +357,35 @@ User question: ${trimmed}`;
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           contents: [{ role: "user", parts: [{ text: prompt }] }],
+          // Google Search grounding lets the model consult the web when the
+          // review database cannot answer. Note: search grounding cannot be
+          // combined with responseMimeType JSON mode, so JSON is extracted
+          // leniently from the text response instead.
+          tools: [{ google_search: {} }],
           generationConfig: {
-            responseMimeType: "application/json",
             temperature: 0.2
           }
         }),
       });
       if (!res.ok) throw new Error("Gemini API request failed.");
       const data = await res.json();
-      const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text || "{}";
-      
-      const parsed = JSON.parse(rawText);
+      const candidate = data?.candidates?.[0];
+      const rawText = (candidate?.content?.parts || []).map((p) => p.text || "").join("") || "{}";
+
+      const jsonMatch = rawText.replace(/```json|```/g, "").match(/\{[\s\S]*\}/);
+      const parsed = JSON.parse(jsonMatch ? jsonMatch[0] : rawText);
       const botAnswer = parsed.answer || "No response generated.";
       const followUps = parsed.followUps || [];
 
-      // Save to cache
-      sessionStorage.setItem(cacheKey, JSON.stringify({ answer: botAnswer, followUps }));
+      // If Gemini actually ran web searches, trust that over the model's label
+      const usedWebSearch = (candidate?.groundingMetadata?.webSearchQueries || []).length > 0;
+      let sourceType = ["database", "external", "hybrid"].includes(parsed.sourceType) ? parsed.sourceType : "database";
+      if (usedWebSearch && sourceType === "database") sourceType = "hybrid";
 
-      setChatMessages((prev) => [...prev, { sender: "BOT", text: botAnswer, timestamp: Date.now() }]);
+      // Save to cache
+      sessionStorage.setItem(cacheKey, JSON.stringify({ answer: botAnswer, followUps, sourceType }));
+
+      setChatMessages((prev) => [...prev, { sender: "BOT", text: botAnswer, sourceType, timestamp: Date.now() }]);
       setActiveFollowUps(followUps);
     } catch (e) {
       console.error(e);
@@ -726,6 +744,13 @@ User question: ${trimmed}`;
                   <div className="chat-bubble">
                     <span className="bubble-sender">{msg.sender === "USER" ? "YOU" : cfg.botName}</span>
                     <p className="bubble-text">{msg.text}</p>
+                    {msg.sender === "BOT" && msg.sourceType && (
+                      <span className={`source-badge source-${msg.sourceType}`}>
+                        {msg.sourceType === "database" && "\ud83d\udcca Grounded in review database"}
+                        {msg.sourceType === "external" && "\ud83c\udf10 External web knowledge"}
+                        {msg.sourceType === "hybrid" && "\ud83d\udcca+\ud83c\udf10 Review data + web knowledge"}
+                      </span>
+                    )}
                   </div>
                 </div>
               ))}
